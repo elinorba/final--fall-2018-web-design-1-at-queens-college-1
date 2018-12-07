@@ -87,3 +87,65 @@ p {
    margin-top: 20px;
    margin-bottom: 100px;
 }
+
+.About {
+   width: 385px;
+   height: 70px;
+   position: relative;
+   left: 113px;
+   background-color: #fedcd2;
+   border: 5px solid rgb(227, 227, 227);
+   font-family: 'Avenir Next Condensed', Nunito, sans-serif;
+   font-weight: 300;
+   font-size: 30px;
+   color: #808080;
+   transition: all 500ms ease;
+}
+
+.About:hover {
+   background: rgba(0, 0, 0, 0);
+   color: #fedcd2;
+   box-shadow: 0 0 0 3px rgb(227, 227, 227);
+}
+
+.Porfolio {
+   display: inline-block;
+   position: relative;
+   left: 125px;
+   width: 385px;
+   height: 70px;
+   background-color: #fedcd2;
+   border: 5px solid rgb(227, 227, 227);
+   font-family: 'Avenir Next Condensed', Nunito, sans-serif;
+   font-weight: 300;
+   font-size: 30px;
+   color: #808080;
+   transition: all 500ms ease;
+}
+
+.Porfolio:hover {
+   background: rgba(0, 0, 0, 0);
+   color: #fedcd2;
+   box-shadow: 0 0 0 3px rgb(227, 227, 227);
+}
+
+.Contact {
+   display: inline-block;
+   position: relative;
+   left: 135px;
+   width: 385px;
+   height: 70px;
+   background-color: #fedcd2;
+   border: 5px solid rgb(227, 227, 227);
+   font-family: 'Avenir Next Condensed', Nunito, sans-serif;
+   font-weight: 300;
+   font-size: 30px;
+   color: #808080;
+   transition: all 500ms ease;
+}
+
+.Contact:hover {
+   background: rgba(0, 0, 0, 0);
+   color: #fedcd2;
+   box-shadow: 0 0 0 3px rgb(227, 227, 227);
+}
