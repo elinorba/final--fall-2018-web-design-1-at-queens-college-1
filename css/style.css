@@ -17,3 +17,11 @@ body {
    top: 50px;
    left: 600px;
 }
+
+.hero {
+   width: 1180px;
+   height: 600px;
+   position: absolute;
+   top: 250px;
+   left: 113px;
+}
