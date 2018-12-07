@@ -149,3 +149,21 @@ p {
    color: #fedcd2;
    box-shadow: 0 0 0 3px rgb(227, 227, 227);
 }
+
+.aboutme {
+   position: relative;
+   top: 20px;
+   left: 270px;
+}
+
+.portfolioicon {
+   position: relative;
+   top: 20px;
+   left: 600px;
+}
+
+.contactme {
+   position: relative;
+   top: -5px;
+   left: 930px;
+}
