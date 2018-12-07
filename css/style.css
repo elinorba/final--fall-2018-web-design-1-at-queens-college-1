@@ -65,3 +65,25 @@ nav ul li a {
    font-weight: 700;
    color: #e9acab;
 }
+
+h1 {
+   font-family: 'Avenir Next Condensed', Nunito, sans-serif;
+   font-weight: 500;
+   font-size: 100px;
+   color: #808080;
+   text-align: center;
+   position: relative;
+   margin-top: 100px;
+   margin-bottom: 0;
+}
+
+p {
+   font-family: 'Avenir Next Condensed', Nunito, sans-serif;
+   font-weight: 100;
+   font-size: 40px;
+   color: #808080;
+   text-align: center;
+   position: relative;
+   margin-top: 20px;
+   margin-bottom: 100px;
+}
