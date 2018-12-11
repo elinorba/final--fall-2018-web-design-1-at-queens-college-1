@@ -1,17 +1,25 @@
-html{
+html {
    background-color: white;
 }
-nav{
- text-align: center;
- margin: auto;
- display: inline;
+
+header {
+   color: black;
+   font-family: 'indie flower';
+   font-size: 64px;
+   margin-left: 28px;
 }
 
-nav ul li{
+nav {
+   text-align: center;
+   margin: auto;
+   display: inline;
+}
+
+nav ul li {
    list-style: none;
    display: inline;
-   font-family: 'crimson';
+   font-family: 'Roboto';
    font-weight: normal;
    margin: auto;
-   text-decoration:none;
+   text-decoration: none;
 }
