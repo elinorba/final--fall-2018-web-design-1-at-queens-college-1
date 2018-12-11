@@ -1,0 +1,17 @@
+html{
+   background-color: white;
+}
+nav{
+ text-align: center;
+ margin: auto;
+ display: inline;
+}
+
+nav ul li{
+   list-style: none;
+   display: inline;
+   font-family: 'crimson';
+   font-weight: normal;
+   margin: auto;
+   text-decoration:none;
+}
