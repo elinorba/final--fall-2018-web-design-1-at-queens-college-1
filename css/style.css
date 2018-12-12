@@ -4,22 +4,40 @@ html {
 
 header {
    color: black;
-   font-family: 'indie flower';
+   font-family: 'indie flower', sans-serif;
    font-size: 64px;
    margin-left: 28px;
 }
 
+/* .greynav {
+   background-color: #e3e3e3;
+   width: 1600px;
+   height: 80px;
+   position: absolute;
+   bottom: 550px;
+} */
+
 nav {
-   text-align: center;
+   background-color: #e3e3e3;
+   height: 200px;
+}
+
+nav ul {
+   list-style: none;
    margin: auto;
-   display: inline;
+   width: 300px;
 }
 
 nav ul li {
-   list-style: none;
-   display: inline;
-   font-family: 'Roboto';
-   font-weight: normal;
-   margin: auto;
+   line-height: 200px;
+   display: inline-block;
+   font-family: Roboto, sans-serif;
+   padding: 0;
+   background-color: #e3e3e3;
+}
+
+a {
    text-decoration: none;
+   display: block;
+   width: 100%;
 }
