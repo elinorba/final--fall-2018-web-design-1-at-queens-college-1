@@ -67,6 +67,16 @@ nav ul li a {
    height: 500px;
    background-color: #b2b2b2;
 }
+
+.sephora {
+   position: relative;
+   top: -55px;
+   left: -135px;
+   width: 530px;
+   height: 620px;
+   box-shadow: -3px -3px 5px 6px #ccc;
+   z-index: 2;
+}
 #container2 {
    float: left;
    position: relative;
@@ -74,5 +84,15 @@ nav ul li a {
    width: 1200px;
    height: 500px;
    background-color: #b2b2b2;
+}
+
+.tea {
+   position: relative;
+   top: -60px;
+   left: 823px;
+   width: 471px;
+   height: 616px;
+   box-shadow: 3px -3px 5px 6px #ccc;
+   z-index: 2;
 }
 
