@@ -77,6 +77,18 @@ nav ul li a {
    box-shadow: -3px -3px 5px 6px #ccc;
    z-index: 2;
 }
+
+#background1 {
+   position: relative;
+   top: 20px;
+   left: 60px;
+   background-color: #ffcbf7;
+   opacity: .5;
+   width: 530px;
+   height: 620px;
+   z-index: 1;
+}
+
 #container2 {
    float: left;
    position: relative;
@@ -94,5 +106,16 @@ nav ul li a {
    height: 616px;
    box-shadow: 3px -3px 5px 6px #ccc;
    z-index: 2;
+}
+
+#background2 {
+   position: relative;
+   top: 80px;
+   left: 880px;
+   background-color: #e9acab;
+   opacity: .5;
+   width: 471px;
+   height: 616px;
+   z-index: 1;
 }
 
