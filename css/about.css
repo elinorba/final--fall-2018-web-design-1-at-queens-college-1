@@ -119,3 +119,25 @@ h1 {
    font-style: italic;
    color: #4d4d4d;
 }
+
+.Contact {
+   display: inline-block;
+   position: relative;
+   left: 515px;
+   width: 385px;
+   height: 70px;
+   background-color: #f1f1f1;
+   border: 5px solid #fedcd2;
+   font-family: 'Avenir Next Condensed', Nunito, sans-serif;
+   font-weight: 300;
+   font-size: 30px;
+   color: #808080;
+   transition: all 500ms ease;
+}
+
+.Contact:hover {
+   background: rgba(0, 0, 0, 0);
+   color: #fedcd2;
+   box-shadow: 0 0 0 3px rgb(227, 227, 227);
+}
+
