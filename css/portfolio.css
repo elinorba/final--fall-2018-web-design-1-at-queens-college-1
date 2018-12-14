@@ -95,6 +95,21 @@ nav ul li a {
    left: 470px;
 }
 
+#sephoraad {
+   font-family: 'Avenir Next Condensed', Nunito, sans-serif;
+   font-size: 50px;
+   font-weight: 300;
+   color: #4d4d4d;
+}
+
+#p1 {
+   padding-top: 10px;
+   font-family: 'Avenir Next Condensed', Nunito, sans-serif;
+   font-size: 30px;
+   font-weight: 200;
+   color: #fff;
+}
+
 #container2 {
    float: left;
    position: relative;
@@ -129,5 +144,20 @@ nav ul li a {
    position: relative;
    top: -500px;
    left: 115px;
+}
+
+#teaad {
+   font-family: 'Avenir Next Condensed', Nunito, sans-serif;
+   font-size: 50px;
+   font-weight: 300;
+   color: #4d4d4d;
+}
+
+#p2 {
+   padding-top: 10px;
+   font-family: 'Avenir Next Condensed', Nunito, sans-serif;
+   font-size: 30px;
+   font-weight: 200;
+   color: #fff;
 }
 
