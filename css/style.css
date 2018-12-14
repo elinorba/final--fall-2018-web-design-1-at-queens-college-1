@@ -2,3 +2,19 @@ html {
    background-image: url('../img/homeimage.jpg');
    background-repeat: no-repeat;
 }
+
+h1 {
+   position: absolute;
+   top: 230px;
+   left: 350px;
+   color: white;
+   font-family: Montserrat, sans-serif;
+}
+
+h2 {
+   position: absolute;
+   top: 290px;
+   left: 350px;
+   color: white;
+   font-family: Titillium, sans-serif;
+}
