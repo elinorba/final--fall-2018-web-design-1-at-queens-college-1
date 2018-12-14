@@ -18,3 +18,38 @@ body {
    left: 600px;
 }
 
+#navbar {
+   border: 0;
+   border-top: 5px solid #cbcbcb;
+   margin: 1em 0;
+   padding: 0;
+}
+
+nav {
+   position: relative;
+   top: -100px;
+   float: left;
+   left: 420px;
+   width: 50%;
+   font-family: Lato, sans-serif;
+   font-weight: 300;
+   font-size: 20px;
+}
+
+nav ul {
+   width: 100%;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+
+nav ul li {
+   width: 25%;
+   float: left;
+}
+
+nav ul li a {
+   display: block;
+   color: #808080;
+}
+
