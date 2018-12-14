@@ -89,6 +89,12 @@ nav ul li a {
    z-index: 1;
 }
 
+#sephoradescription {
+   position: relative;
+   top: -500px;
+   left: 470px;
+}
+
 #container2 {
    float: left;
    position: relative;
@@ -117,5 +123,11 @@ nav ul li a {
    width: 471px;
    height: 616px;
    z-index: 1;
+}
+
+#teadescription {
+   position: relative;
+   top: -500px;
+   left: 115px;
 }
 
