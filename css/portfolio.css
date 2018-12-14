@@ -58,3 +58,21 @@ nav ul li a {
    color: #fedcd2;
 }
 
+#container1 {
+   float: right;
+   position: relative;
+   top: 100px;
+   left: 10px;
+   width: 1200px;
+   height: 500px;
+   background-color: #b2b2b2;
+}
+#container2 {
+   float: left;
+   position: relative;
+   top: 200px;
+   width: 1200px;
+   height: 500px;
+   background-color: #b2b2b2;
+}
+
