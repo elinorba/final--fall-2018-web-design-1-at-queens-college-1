@@ -53,3 +53,69 @@ nav ul li a {
    color: #808080;
 }
 
+#about {
+   font-weight: 900;
+   color: #fedcd2;
+}
+
+#titlebox {
+   width: 490px;
+   height: 72px;
+   position: relative;
+   top: 100px;
+   left: 460px;
+   text-align: center;
+   background-color: #f1f1f1;
+   border: 5px solid #fedcd2;
+}
+
+h1 {
+   font-family: 'Avenir Next Condensed', Nunito, sans-serif;
+   font-weight: 300;
+   font-style: italic;
+   color: #808080;
+}
+
+#imgbox {
+   width: 494px;
+   height: 471px;
+   position: relative;
+   top: 200px;
+   left: 115px;
+   box-shadow: -3px -3px 5px 6px #ccc;
+   z-index: 2;
+}
+
+#infobox {
+   width: 880px;
+   height: 471px;
+   position: relative;
+   top: -200px;
+   left: 400px;
+   background-color: #fedcd2;
+   border: 5px solid #f1f1f1;
+   box-shadow: 3px -3px 5px 6px #ccc;
+   z-index: 1;
+}
+
+#p1 {
+   width: 561px;
+   position: relative;
+   top: 100px;
+   left: 250px;
+   font-family: 'Avenir Next Condensed', Nunito, sans-serif;
+   font-size: 25px;
+   font-style: italic;
+   color: #4d4d4d;
+}
+
+#p2 {
+   width: 561px;
+   position: relative;
+   top: 120px;
+   left: 250px;
+   font-family: 'Avenir Next Condensed', Nunito, sans-serif;
+   font-size: 25px;
+   font-style: italic;
+   color: #4d4d4d;
+}
