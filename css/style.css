@@ -6,15 +6,17 @@ html {
 h1 {
    position: absolute;
    top: 230px;
-   left: 350px;
+   left: 230px;
    color: white;
    font-family: Montserrat, sans-serif;
+   letter-spacing: 25px;
 }
 
 h2 {
    position: absolute;
    top: 290px;
-   left: 350px;
+   left: 280px;
    color: white;
    font-family: Titillium, sans-serif;
+   letter-spacing: 16px;
 }
