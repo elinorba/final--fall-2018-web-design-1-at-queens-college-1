@@ -38,10 +38,3 @@ a {
 a:hover {
    color: white;
 }
-
-html
-#imagesnap {
-   position: absolute;
-   left: 60px;
-   top: 230px;
-}
