@@ -2,10 +2,10 @@ footer {
     background-color: navy;
     color: inherit;
     text-align: center;
-    
+    margin: auto;
 }
 footer nav{
-    position:static;
+    position:relative;
     display:flex;
     justify-content: space-between;
     margin: auto;
