@@ -1,4 +1,12 @@
+body {
+   background-image: url('../img/colorsHome.png');
+   /* background-repeat: no-repeat; */
+   /* opacity: .5; */
+}
+
 nav {
+   position: fixed;
    display: inline-flex;
    text-align: center;
 }
+
