@@ -105,3 +105,9 @@ input {
    color: #808080;
    transition: all 500ms ease;
 }
+
+#submit:hover {
+   background: rgba(0, 0, 0, 0);
+   color: #fedcd2;
+   box-shadow: 0 0 0 3px rgb(227, 227, 227);
+}
