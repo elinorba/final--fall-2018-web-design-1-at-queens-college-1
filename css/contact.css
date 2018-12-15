@@ -52,3 +52,8 @@ nav ul li a {
    display: block;
    color: #808080;
 }
+
+#contact {
+   font-weight: 900;
+   color: #fedcd2;
+}
