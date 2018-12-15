@@ -1,0 +1,31 @@
+header {
+   background-size: cover;
+   height: 100%;
+   text-align: center;
+   margin: auto;
+   ;
+   
+}
+header h1 {
+      
+      text-align: left;
+      font-family: anton, sans-serif;
+      font-size: 64px;
+      margin:auto;
+      text-decoration: none;
+}    
+
+nav {
+    position:static;
+    display: flex;
+    justify-content: space-between;
+    font-style: normal;
+    font-weight: bold;
+    font-family: roboto, sans-serif;
+    font-size: 30px;
+    margin-top: -105px;
+    margin-left: 650px;
+    margin-right: 80px;
+    text-decoration: none;
+    
+}

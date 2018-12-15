@@ -1,0 +1,14 @@
+footer {
+    background-color: navy;
+    color: inherit;
+    text-align: center;
+    
+}
+footer nav{
+    position:static;
+    display:flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 200px
+}
+
