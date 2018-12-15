@@ -3,3 +3,24 @@
    width: 1024px;
    background-color: #1c1c1c;
 }
+
+#imagesnap {
+   position: absolute;
+   left: 100px;
+   top: 230px;
+}
+
+#videosnap {
+   position: absolute;
+   left: 640px;
+   top: 230px;
+}
+
+h1 {
+   position: absolute;
+   left: 500px;
+   top: 60px;
+   font-family: 'monserratt', sans-serif;
+   color: white;
+   letter-spacing: 30px;
+}
