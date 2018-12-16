@@ -36,7 +36,7 @@ a {
 
 h2 {
    position: absolute;
-   top: 1120px;
+   top: 1340px;
    left: 600px;
    font-size: 35px;
    font-family: Roboto, sans-serif;
@@ -44,7 +44,7 @@ h2 {
 
 p {
    position: absolute;
-   top: 1160px;
+   top: 1380px;
    left: 480px;
    font-size: 42px;
    font-family: 'indie flower', sans-serif;
@@ -57,12 +57,43 @@ h3 {
    padding: 1em;
    width: 200px;
    text-align: center;
-   top: 1300px;
+   top: 1520px;
    left: 600px;
    position: absolute;
    font-family: Roboto, sans-serif;
 }
 
-#circle {
+#me {
    position: absolute;
+}
+
+/* this is the end of home page. */
+
+#aboutme {
+   position: absolute;
+   left: -200px;
+}
+
+h4 {
+   font-size: 50px;
+   position: absolute;
+   top: 360px;
+   left: 918px;
+   font-family: 'indie flower', sans-serif;
+}
+
+h5 {
+   width: 415px;
+   text-align: center;
+   position: absolute;
+   top: 485px;
+   left: 870px;
+   font-size: 24px;
+   font-family: Roboto, sans-serif;
+}
+
+#bubble {
+   position: absolute;
+   left: 450px;
+   top: 110px;
 }
