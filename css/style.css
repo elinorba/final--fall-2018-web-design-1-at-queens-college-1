@@ -165,3 +165,90 @@ h5 {
    left: 1140px;
    top: 580px;
 }
+
+#John {
+   position: absolute;
+   top: 800px;
+}
+
+#thereaper {
+   position: absolute;
+   text-align: center;
+   width: 390px;
+   font-family: 'indie flower', sans-serif;
+   top: 1190px;
+   font-size: 25px;
+}
+
+#p4 {
+   position: absolute;
+   text-align: center;
+   width: 300px;
+   font-family: Roboto, sans-serif;
+   top: 1235px;
+   left: 50px;
+}
+
+#Flash {
+   position: absolute;
+   top: 800px;
+   left: 550px;
+}
+
+#TheFlash {
+   position: absolute;
+   text-align: center;
+   width: 290px;
+   font-family: 'indie flower', sans-serif;
+   top: 1190px;
+   font-size: 25px;
+   left: 600px;
+}
+
+#p5 {
+   position: absolute;
+   text-align: center;
+   width: 300px;
+   font-family: Roboto, sans-serif;
+   top: 1235px;
+   left: 600px;
+}
+
+#allmight {
+   position: absolute;
+   top: 800px;
+   left: 1100px;
+}
+
+#hero {
+   position: absolute;
+   text-align: center;
+   width: 290px;
+   font-family: 'indie flower', sans-serif;
+   top: 1190px;
+   font-size: 25px;
+   left: 1150px;
+}
+
+#p6 {
+   position: absolute;
+   text-align: center;
+   width: 300px;
+   font-family: Roboto, sans-serif;
+   top: 1235px;
+   left: 1140px;
+}
+
+#IG {
+   position: absolute;
+   top: 1400px;
+   left: 690px;
+}
+
+#nicksartt {
+   top: 1440px;
+   left: 625px;
+   position: absolute;
+   font-size: 51px;
+   font-family: 'indie flower', sans-serif;
+}
