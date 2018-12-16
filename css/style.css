@@ -1,12 +1,33 @@
 body {
-   background-image: url('../img/colorsHome.png');
-   /* background-repeat: no-repeat; */
+   width: 1024px;
+}
+
+header {
+   position: relative;
+   background-color: rgb(6, 220, 255);
+   color: white;
+   width: 1024px;
+   margin: 30px;
    /* opacity: .5; */
+   text-align: center;
 }
 
 nav {
-   position: fixed;
+   /* position: sticky; */
    display: inline-flex;
-   text-align: center;
+   width: 1024px;
+   background-color: rgb(204, 153, 255);
+   color: white;
+   margin: 30px;
+   /* text-align: center; */
+   justify-content: center;
+}
+
+a:link {
+   text-decoration: none;
+}
+
+img {
+   margin: 30px;
 }
 
