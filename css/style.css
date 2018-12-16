@@ -9,17 +9,9 @@ header {
    margin-left: 28px;
 }
 
-/* .greynav {
-   background-color: #e3e3e3;
-   width: 1600px;
-   height: 80px;
-   position: absolute;
-   bottom: 550px;
-} */
-
 nav {
    background-color: #e3e3e3;
-   height: 200px;
+   height: 100px;
 }
 
 nav ul {
@@ -29,7 +21,7 @@ nav ul {
 }
 
 nav ul li {
-   line-height: 200px;
+   line-height: 100px;
    display: inline-block;
    font-family: Roboto, sans-serif;
    padding: 0;
