@@ -34,18 +34,9 @@ a {
    width: 100%;
 }
 
-#circle {
-   position: absolute;
-}
-
-#me {
-   position: absolute;
-   top: 212px;
-}
-
 h2 {
    position: absolute;
-   top: 1400px;
+   top: 1120px;
    left: 600px;
    font-size: 35px;
    font-family: Roboto, sans-serif;
@@ -53,7 +44,7 @@ h2 {
 
 p {
    position: absolute;
-   top: 1450px;
+   top: 1160px;
    left: 480px;
    font-size: 42px;
    font-family: 'indie flower', sans-serif;
@@ -66,7 +57,12 @@ h3 {
    padding: 1em;
    width: 200px;
    text-align: center;
-   top: 1600px;
+   top: 1300px;
    left: 600px;
+   position: absolute;
+   font-family: Roboto, sans-serif;
+}
+
+#circle {
    position: absolute;
 }
