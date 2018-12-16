@@ -327,8 +327,12 @@ h5 {
 }
 
 .Send:hover {
-   background-color: #e3e3e3;
-   color: white;
+   background-color: white;
+   color: black;
+}
+
+.Send:hover {
+   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, .24), 0 17px 50px 0 rgba(0, 0, 0, .19);
 }
 
 #IG2 {
