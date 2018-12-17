@@ -1,0 +1,177 @@
+body {
+   width: 1440px;
+   background-color: transparent;
+}
+
+#container {
+   background-color: #f1f1f1;
+   position: relative;
+   width: 100%;
+   height: 900px;
+}
+
+.imglogo {
+   width: 258px;
+   height: 141px;
+   position: absolute;
+   top: 50px;
+   left: 600px;
+}
+
+.hero {
+   width: 1180px;
+   height: 600px;
+   position: absolute;
+   top: 270px;
+   left: 113px;
+}
+
+#navbar {
+   border: 0;
+   border-top: 5px solid #cbcbcb;
+   margin: 1em 0;
+   padding: 0;
+}
+
+nav {
+   position: relative;
+   float: left;
+   top: -680px;
+   left: 420px;
+   width: 50%;
+   font-family: Lato, sans-serif;
+   font-weight: 300;
+   font-size: 20px;
+}
+
+nav ul {
+   width: 100%;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+
+nav ul li {
+   width: 25%;
+   float: left;
+}
+
+nav ul li a {
+   display: block;
+   color: #808080;
+}
+
+#home {
+   font-weight: 900;
+   color: #fedcd2;
+}
+
+h1 {
+   font-family: 'Avenir Next Condensed', Nunito, sans-serif;
+   font-weight: 500;
+   font-size: 70px;
+   color: #808080;
+   text-align: center;
+   position: relative;
+   margin-top: 100px;
+   margin-bottom: 0;
+}
+
+p {
+   font-family: 'Avenir Next Condensed', Nunito, sans-serif;
+   font-weight: 200;
+   font-size: 30px;
+   color: #808080;
+   text-align: center;
+   position: relative;
+   margin-top: 20px;
+   margin-bottom: 100px;
+}
+
+.About {
+   width: 385px;
+   height: 70px;
+   position: relative;
+   left: 113px;
+   background-color: #fedcd2;
+   border: 5px solid rgb(227, 227, 227);
+   font-family: 'Avenir Next Condensed', Nunito, sans-serif;
+   font-weight: 300;
+   font-size: 30px;
+   color: #808080;
+   transition: all 500ms ease;
+}
+
+.About:hover {
+   background: rgba(0, 0, 0, 0);
+   color: #fedcd2;
+   box-shadow: 0 0 0 3px rgb(227, 227, 227);
+}
+
+.Porfolio {
+   display: inline-block;
+   position: relative;
+   left: 125px;
+   width: 385px;
+   height: 70px;
+   background-color: #fedcd2;
+   border: 5px solid rgb(227, 227, 227);
+   font-family: 'Avenir Next Condensed', Nunito, sans-serif;
+   font-weight: 300;
+   font-size: 30px;
+   color: #808080;
+   transition: all 500ms ease;
+}
+
+.Porfolio:hover {
+   background: rgba(0, 0, 0, 0);
+   color: #fedcd2;
+   box-shadow: 0 0 0 3px rgb(227, 227, 227);
+}
+
+.Contact {
+   display: inline-block;
+   position: relative;
+   left: 135px;
+   width: 385px;
+   height: 70px;
+   background-color: #fedcd2;
+   border: 5px solid rgb(227, 227, 227);
+   font-family: 'Avenir Next Condensed', Nunito, sans-serif;
+   font-weight: 300;
+   font-size: 30px;
+   color: #808080;
+   transition: all 500ms ease;
+}
+
+.Contact:hover {
+   background: rgba(0, 0, 0, 0);
+   color: #fedcd2;
+   box-shadow: 0 0 0 3px rgb(227, 227, 227);
+}
+
+.aboutme {
+   position: relative;
+   top: 20px;
+   left: 270px;
+}
+
+.portfolioicon {
+   position: relative;
+   top: 20px;
+   left: 600px;
+}
+
+.contactme {
+   position: relative;
+   top: -5px;
+   left: 930px;
+}
+
+#container2 {
+   background-color: #f1f1f1;
+   position: relative;
+   top: 100px;
+   width: 100%;
+   height: 100px;
+}

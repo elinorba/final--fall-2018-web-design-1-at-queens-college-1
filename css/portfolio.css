@@ -1,0 +1,170 @@
+body {
+   width: 1440px;
+   background-color: transparent;
+}
+
+#container {
+   background-color: #f1f1f1;
+   position: relative;
+   width: 100%;
+   height: 300px;
+}
+
+.imglogo {
+   width: 258px;
+   height: 141px;
+   position: absolute;
+   top: 50px;
+   left: 600px;
+}
+
+#navbar {
+   border: 0;
+   border-top: 5px solid #cbcbcb;
+   margin: 1em 0;
+   padding: 0;
+}
+
+nav {
+   position: relative;
+   top: -100px;
+   float: left;
+   left: 420px;
+   width: 50%;
+   font-family: Lato, sans-serif;
+   font-weight: 300;
+   font-size: 20px;
+}
+
+nav ul {
+   width: 100%;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+
+nav ul li {
+   width: 25%;
+   float: left;
+}
+
+nav ul li a {
+   display: block;
+   color: #808080;
+}
+
+#portfolio {
+   font-weight: 900;
+   color: #fedcd2;
+}
+
+#container1 {
+   float: right;
+   position: relative;
+   top: 100px;
+   left: 10px;
+   width: 1200px;
+   height: 500px;
+   background-color: #b2b2b2;
+}
+
+.sephora {
+   position: relative;
+   top: -55px;
+   left: -135px;
+   width: 530px;
+   height: 620px;
+   box-shadow: -3px -3px 5px 6px #ccc;
+   z-index: 2;
+}
+
+#background1 {
+   position: relative;
+   top: 20px;
+   left: 60px;
+   background-color: #ffcbf7;
+   opacity: .5;
+   width: 530px;
+   height: 620px;
+   z-index: 1;
+}
+
+#sephoradescription {
+   position: relative;
+   top: -500px;
+   left: 470px;
+}
+
+#sephoraad {
+   font-family: 'Avenir Next Condensed', Nunito, sans-serif;
+   font-size: 50px;
+   font-weight: 300;
+   color: #4d4d4d;
+}
+
+#p1 {
+   padding-top: 10px;
+   font-family: 'Avenir Next Condensed', Nunito, sans-serif;
+   font-size: 30px;
+   font-weight: 200;
+   color: #fff;
+}
+
+#container2 {
+   float: left;
+   position: relative;
+   top: 200px;
+   width: 1200px;
+   height: 500px;
+   background-color: #b2b2b2;
+}
+
+.tea {
+   position: relative;
+   top: -60px;
+   left: 823px;
+   width: 471px;
+   height: 616px;
+   box-shadow: 3px -3px 5px 6px #ccc;
+   z-index: 2;
+}
+
+#background2 {
+   position: relative;
+   top: 80px;
+   left: 880px;
+   background-color: #e9acab;
+   opacity: .5;
+   width: 471px;
+   height: 616px;
+   z-index: 1;
+}
+
+#teadescription {
+   position: relative;
+   top: -500px;
+   left: 115px;
+}
+
+#teaad {
+   font-family: 'Avenir Next Condensed', Nunito, sans-serif;
+   font-size: 50px;
+   font-weight: 300;
+   color: #4d4d4d;
+}
+
+#p2 {
+   padding-top: 10px;
+   font-family: 'Avenir Next Condensed', Nunito, sans-serif;
+   font-size: 30px;
+   font-weight: 200;
+   color: #fff;
+}
+
+#footer {
+   background-color: #f1f1f1;
+   position: relative;
+   top: 200px;
+   width: 100%;
+   height: 200px;
+}
