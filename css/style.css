@@ -1,11 +1,10 @@
 body {
-   /* width: 1024px; */
    font-family: Niramit, sans-serif;
 }
 
 header {
    /* width: 1024px; */
-   width: 100%;
+   /* width: 100vw; */
    height: 60px;
    background-color: rgb(6, 220, 255);
    color: white;
@@ -16,7 +15,6 @@ header {
 }
 
 nav {
-   /* position: sticky; */
    display: inline-flex;
    width: 100%;
    margin: 30px;
@@ -28,8 +26,6 @@ nav > a {
    background-color: rgb(204, 153, 255);
    color: white;
    display: inline-flex;
-   /* height: 30px; */
-   /* font-size: 18px; */
 }
 
 nav > a:link {
@@ -51,7 +47,6 @@ nav > a:link {
 }
 
 /*  About CSS*/
-
 .about {
    /* background-image: url('img/colorsHome.png'); */
    /* background-color: #ccc; */
@@ -76,7 +71,7 @@ nav > a:link {
 }
 
 #vane {
-   width: 100%;
+   /* width: 100%; */
    /* position: absolute; */
 }
 
@@ -84,17 +79,25 @@ nav > a:link {
    /* position: relative;
    opacity: .5; */
 }
+/*End About */
 
 /* Works CSS */
+
 .work-class {
    text-align: center;
    margin: 0;
    padding: 20px 0;
    width: 100%;
    background-color: rgba(255, 255, 255, .68);
+   color: black;
    position: absolute;
    bottom: 0;
    left: 0;
+}
+
+.work-title {
+   /* background-color: rgba(0, 0, 0, .5); */
+   color: black;
 }
 
 .work-image {
@@ -110,9 +113,10 @@ nav > a:link {
    position: relative;
    float: left;
    width: 50%;
+   /* padding: 2px; */
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 1024px) {
    #container {
       width: 800px;
    }
@@ -120,30 +124,22 @@ nav > a:link {
    .image-container {
       width: 50%;
    }
+
+   nav {
+      width: 50%;
+      display: inline-block;
+   }
 }
 
-@media (max-width: 860px) {
+@media (max-width: 768px) {
    #container {
       width: 93%;
    }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 400px) {
    .image-container {
       width: 100%;
    }
 }
 
-.works {
-   /* border-color: rgb(204, 153, 255); */
-   /* display: inline-flex; */
-   /* display: inline-block; */
-   justify-content: center;
-}
-
-.works a:link {
-   /* border-color: black;
-   border-width: thick; */
-   display: inline-flex;
-   /* justify-content: center; */
-}
