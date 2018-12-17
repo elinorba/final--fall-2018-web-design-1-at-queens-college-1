@@ -30,21 +30,24 @@ nav {
 }
 
 html.landing-page {
-   background-image: url('../img/afg-door.jpg');
+   background-image: url('../img/nyfw.jpg');
+   background-color: black;
+   color: inherit;
    background-attachment: fixed;
    background-position: center;
    background-repeat: no-repeat;
-   background-size: auto;
+   background-size: 100%;
+   max-width: 100%;
 }
 
 #landing-header p:first-of-type {
-   margin-top: 220px;
+   margin-top: 260px;
    width: auto;
    height: 100%;
    text-align: center;
    text-decoration: none;
    font-family: anton, sans-serif;
-   font-size: 120px;
+   font-size: 130px;
    letter-spacing: 10px;
    color: white;
 }
@@ -55,6 +58,12 @@ html.landing-page {
    font-family: roboto, sans-serif;
    font-size: 48px;
    font-style: italic;
-   margin-top: -130px;
-   color: white;
+   margin-top: -160px;
+   color: gold;
+}
+
+@media screen and (max-width: 800px){
+    .nav {
+        width:100%;
+    }
 }
