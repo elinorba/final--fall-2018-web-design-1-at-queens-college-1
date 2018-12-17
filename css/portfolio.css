@@ -82,65 +82,8 @@ body > p:first-of-type {
    flex-wrap: wrap;
 }
 
-/* img:nth-of-type(2) {
-   position: relative;
-   top: 310px;
-   right: 460px;
-}
-
-p:nth-of-type(2) {
-   font-size: 16px;
-   font-family: lora, serif;
-   position: relative;
-   left: -470px;
-   top: 300px;
-}
-
-img:nth-of-type(3) {
-   position: relative;
-   top: -195px;
-   left: 315px;
-}
-
-p:nth-of-type(3) {
-   font-size: 16px;
-   font-family: lora, serif;
-   position: relative;
-   left: 240px;
-   top: -205px;
-}
-
-img:nth-of-type(4) {
-   position: relative;
-   top: -90px;
-   right: 315px;
-}
-
-p:nth-of-type(4) {
-   font-size: 16px;
-   font-family: lora, serif;
-   position: relative;
-   left: -450px;
-   top: -100px;
-}
-
-img:nth-of-type(5) {
-   position: relative;
-   top: -595px;
-   left: 315px;
-}
-
-p:nth-of-type(5) {
-   font-size: 16px;
-   font-family: lora, serif;
-   position: relative;
-   left: 210px;
-   top: -605px;
-} */
-
 @media screen and (min-width: 1260px) {
    #container {
-      background-color: aqua;
       width: 91%;
    }
 
@@ -150,9 +93,16 @@ p:nth-of-type(5) {
 }
 
 @media screen and (min-width: 769px) and (max-width: 1259px) {
+   img {
+      width: 20%;
+   }
+
+   nav {
+      width: 36%;
+   }
+
    #container {
-      background-color: pink;
-      width: 61%;
+      width: 90%;
    }
 
    .item {
@@ -161,13 +111,82 @@ p:nth-of-type(5) {
 }
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
+   html {
+      width: 100%;
+   }
+
+   body > img:first-of-type {
+      display: inline;
+      top: 0;
+      left: 0;
+      margin: auto;
+      position: static;
+      width: 20%;
+   }
+
+   body > p {
+      top: 0;
+      left: 0;
+      margin: auto;
+      width: 50%;
+      display: block;
+   }
+
+   nav {
+      margin: auto;
+      position: static;
+      width: 50%;
+   }
+
+   nav a {
+      width: 50%;
+   }
+
    #container {
-      background-color: blue;
+      margin: auto;
+      display: block;
+      width: 95%;
+   }
+
+   .item {
+      width: 95%;
    }
 }
 
 @media screen and (max-width: 425px) {
+   html {
+      width: 100%;
+   }
+
+   body > p {
+      width: 50%;
+   }
+
+   img {
+      position: unset;
+      width: 20%;
+   }
+
+   nav {
+      position: static;
+      display: block;
+      width: 50%;
+   }
+
+   nav a {
+      position: static;
+      display: block;
+      width: 50%;
+   }
+
    #container {
-      background-color: yellow;
+      display: block;
+      width: 100%;
+   }
+
+   .item {
+      margin: 0;
+      display: block;
+      width: 92%;
    }
 }
