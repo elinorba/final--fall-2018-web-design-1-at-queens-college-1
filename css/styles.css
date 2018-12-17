@@ -185,10 +185,3 @@ li a:hover {
    width: 300px;
    margin-top: -100px;
 }
-
-/* Media Queries*/
-
-@media tablet and (max-width: 768px) {
-   body {
-   }
-}
