@@ -19,20 +19,41 @@ h1 {
    margin: 0;
 }
 
+a:link {
+   color: black;
+   text-decoration: none;
+   transition: 1000ms;
+   border-bottom: 4px solid transparent;
+}
+
+a:visited {
+   color: #3e420a;
+}
+
+a:hover {
+   color: #83429c;
+   border-bottom-color: red;
+}
+
+a:active {
+   color: orange;
+}
+
 nav {
    width: 610px;
-   font-size: 24px;
+   font-family: Oswald, sans-serif;
+   font-size: 22px;
    line-height: 44px;
    display: flex;
    justify-content: space-between;
    position: relative;
    top: 110px;
-   left: 650px;
+   left: 575px;
 }
 
 img:first-of-type {
    position: relative;
-   top: -800px;
+   top: -775px;
    left: -150px;
 }
 
@@ -40,8 +61,8 @@ p:first-of-type {
    font-family: Quantico, sans-serif;
    position: relative;
    text-decoration: underline;
-   top: 130px;
-   font-size: 42px;
+   top: 160px;
+   font-size: 34px;
    text-align: center;
 }
 

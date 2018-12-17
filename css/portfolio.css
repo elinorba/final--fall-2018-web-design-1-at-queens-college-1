@@ -19,9 +19,30 @@ h1 {
    margin: 0;
 }
 
+a:link {
+   color: black;
+   text-decoration: none;
+   transition: 1000ms;
+   border-bottom: 4px solid transparent;
+}
+
+a:visited {
+   color: #3e420a;
+}
+
+a:hover {
+   color: #83429c;
+   border-bottom-color: red;
+}
+
+a:active {
+   color: orange;
+}
+
 nav {
    width: 610px;
-   font-size: 24px;
+   font-family: Oswald, sans-serif;
+   font-size: 22px;
    line-height: 44px;
    display: flex;
    justify-content: space-between;
@@ -32,7 +53,7 @@ nav {
 
 img:first-of-type {
    position: relative;
-   top: -400px;
+   top: -425px;
    left: -150px;
 }
 
@@ -40,8 +61,8 @@ p:first-of-type {
    font-family: Quantico, sans-serif;
    position: relative;
    text-decoration: underline;
-   top: 190px;
-   font-size: 42px;
+   top: 160px;
+   font-size: 34px;
    text-align: center;
 }
 
@@ -100,3 +121,28 @@ p:nth-of-type(5) {
    left: 210px;
    top: -605px;
 }
+
+/* @media screen and (min-width: 1260px) {
+   p {
+      background-color: aqua;
+   }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1259px) {
+   p {
+      background-color: pink;
+      width: 61%;
+   }
+}
+
+@media scren and (min-width: 426px) and (max-width: 768px) {
+   p {
+      background-color: blue;
+   }
+}
+
+@media screen and (max-width: 425px) {
+   p {
+      background-color: yellow;
+   }
+} */

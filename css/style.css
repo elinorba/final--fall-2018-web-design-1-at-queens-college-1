@@ -1,6 +1,7 @@
 html {
    width: 1260px;
    background-color: #f2f6ff;
+   /* color: transparent; */
    /* background-image: url('../img/img_8993.jpg');
    background-repeat: no-repeat;
    background-attachment: fixed;
@@ -19,9 +20,30 @@ h1 {
    margin: 0;
 }
 
+a:link {
+   color: black;
+   text-decoration: none;
+   transition: 1000ms;
+   border-bottom: 4px solid transparent;
+}
+
+a:visited {
+   color: #3e420a;
+}
+
+a:hover {
+   color: #83429c;
+   border-bottom-color: red;
+}
+
+a:active {
+   color: orange;
+}
+
 nav {
    width: 610px;
-   font-size: 20px;
+   font-family: Oswald, sans-serif;
+   font-size: 22px;
    line-height: 44px;
    display: flex;
    justify-content: space-between;
@@ -40,7 +62,7 @@ p:first-of-type {
    font-family: Quantico, sans-serif;
    position: relative;
    text-decoration: underline;
-   top: 130px;
+   top: 160px;
    font-size: 34px;
    text-align: center;
 }
