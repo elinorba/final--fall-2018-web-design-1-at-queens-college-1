@@ -51,13 +51,13 @@ nav {
    left: 575px;
 }
 
-img:first-of-type {
+body > img:first-of-type {
    position: relative;
-   top: -425px;
-   left: -150px;
+   top: -125px;
+   left: -450px;
 }
 
-p:first-of-type {
+body > p:first-of-type {
    font-family: Quantico, sans-serif;
    position: relative;
    text-decoration: underline;
@@ -66,7 +66,23 @@ p:first-of-type {
    text-align: center;
 }
 
-img:nth-of-type(2) {
+#container {
+   margin: auto;
+   text-align: center;
+   position: relative;
+   display: flex;
+   flex-wrap: wrap;
+   width: 1200px;
+}
+
+.item {
+   margin: auto;
+   position: relative;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+/* img:nth-of-type(2) {
    position: relative;
    top: 310px;
    right: 460px;
@@ -120,29 +136,38 @@ p:nth-of-type(5) {
    position: relative;
    left: 210px;
    top: -605px;
-}
+} */
 
-/* @media screen and (min-width: 1260px) {
-   p {
+@media screen and (min-width: 1260px) {
+   #container {
       background-color: aqua;
+      width: 91%;
+   }
+
+   .item {
+      width: 100%;
    }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1259px) {
-   p {
+   #container {
       background-color: pink;
       width: 61%;
    }
+
+   .item {
+      width: 100%;
+   }
 }
 
-@media scren and (min-width: 426px) and (max-width: 768px) {
-   p {
+@media screen and (min-width: 426px) and (max-width: 768px) {
+   #container {
       background-color: blue;
    }
 }
 
 @media screen and (max-width: 425px) {
-   p {
+   #container {
       background-color: yellow;
    }
-} */
+}
