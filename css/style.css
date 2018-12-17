@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+:root{
+  width: 1600px;
+}
+
+@media {
+   (min-width: 1025px)
+}
+
+@media (min-width: 769px) and (max-width: 1024px)
+
+@media (min-width: 426px) and (max-width: 768px)
+
+@media (max-width: 425px)
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.headernav {
+   display: flex;
+   justify-content: flex-end;
+}
+
+.nav {
+   width: 400px;
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   justify-content: space-between;
+   padding-top: 2px;
+}
+
+header {
+   display: inline-flex;
+   margin: auto;
+}
+
+
+
+header h1 {
+  position: relative;
+  width: 1600px;
+}
+
+header nav {
+   display: inline-flex;
+   justify-content: space-between;
+   width: 100%;
+   flex-direction: row;
+}
+
+body {
+   display: block;
+   margin: 4px;
+   margin-left: 4px;
+   margin-right: 4px;
+   margin-top: 4px;
+   margin-bottom: 4px;
+   padding: 4px;
+}
+
+#exercise {
+   position: absolute;
+   display: inline;
+   border: blue;
+   border-width: 3px;
+}
+
+#Images {
+   position: static;
+   align-items: center;
+   padding-left: 100px;
+   display: flex;
+   display: inline-block;
+   flex: auto;
+}
