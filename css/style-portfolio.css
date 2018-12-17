@@ -57,6 +57,7 @@
    }
 
    .gallary img {
+      padding: 0;
       transition: 1s;
       width: 200px;
    }
@@ -86,12 +87,12 @@
    ul {
       list-style-type: none;
       color: #d2dbbd;
-      font-size: 20px;
+      font-size: 15px;
    }
 
    header > nav > ul > li {
       display: inline-block;
-      margin: 0 100px;
+      margin: 0 70px;
       margin-top: 10px;
    }
 
@@ -131,12 +132,12 @@
    ul {
       list-style-type: none;
       color: #d2dbbd;
-      font-size: 20px;
+      font-size: 15px;
    }
 
    header > nav > ul > li {
       display: inline-block;
-      margin: 0 100px;
+      margin: 0 30px;
       margin-top: 10px;
    }
 
@@ -181,12 +182,12 @@
    ul {
       list-style-type: none;
       color: #d2dbbd;
-      font-size: 20px;
+      font-size: 15px;
    }
 
    header > nav > ul > li {
       display: inline-block;
-      margin: 0 100px;
+      margin: 0 30px;
       margin-top: 10px;
    }
 
@@ -197,7 +198,7 @@
    }
 
    .gallary {
-      margin-left: 5%;
+      margin-left: 15%;
    }
 
    .gallary img {
