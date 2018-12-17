@@ -1,0 +1,194 @@
+@charset "UTF-8";
+
+.logo1 {
+   width: 400px;
+   z-index: 1;
+   position: absolute;
+   margin-top: 0%;
+   opacity: 1;
+   margin-left: 635px;
+}
+
+.bg1 {
+   width: 1700px;
+   z-index: -1;
+   position: fixed;
+   margin-top: 0%;
+   opacity: .5;
+}
+
+ul {
+   list-style-type: none;
+   padding-top: 20%;
+   padding-left: 27.9%;
+   position: absolute;
+   font-size: 45px;
+   font-family: raleway, Helvetica, sans-serif;
+}
+
+li {
+   float: left;
+}
+
+li a {
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+}
+
+li a:hover {
+   background-color: #c5bdbd;
+}
+
+.menu1 {
+   position: absolute;
+   margin-top: 29%;
+   margin-left: 31%;
+}
+
+.menu2 {
+   position: absolute;
+   margin-top: 29.5%;
+   margin-left: 43%;
+}
+
+.menu3 {
+   position: absolute;
+   margin-top: 29%;
+   margin-left: 57%;
+}
+
+.menu4 {
+   position: absolute;
+   margin-top: 28.2%;
+   margin-left: 67%;
+   width: 70px;
+   height: 70px;
+}
+
+.bg2 {
+   height: 8790px;
+   width: 1700px;
+   z-index: -1;
+   position: absolute;
+   opacity: .5;
+}
+
+.logo2 {
+   width: 400px;
+   z-index: 2;
+   position: absolute;
+   margin-top: 0%;
+   margin-left: -300px;
+   opacity: 1;
+}
+
+.down1 {
+   padding-left: 46%;
+   padding-top: 35%;
+   width: 200px;
+}
+
+.art {
+   padding-top: 15%;
+   width: 1000px;
+   padding-left: 20%;
+   position: relative;
+}
+
+.bg3 {
+   width: 1700px;
+   z-index: -1;
+   position: absolute;
+   opacity: .5;
+}
+
+.logo3 {
+   width: 400px;
+   z-index: 2;
+   position: absolute;
+   margin-top: 0%;
+   margin-left: -300px;
+   opacity: 1;
+}
+
+.down3 {
+   padding-left: 46%;
+   padding-top: 35%;
+   width: 200px;
+}
+
+.fb {
+   width: 128px;
+   height: 128px;
+   padding-left: 66%;
+   padding-top: 10%;
+   position: absolute;
+}
+
+.phone {
+   width: 128px;
+   height: 128px;
+   padding-left: 48%;
+   padding-top: 10%;
+   position: absolute;
+}
+
+.gram {
+   width: 128px;
+   height: 128px;
+   padding-left: 30%;
+   padding-top: 10%;
+   position: absolute;
+}
+
+.bg4 {
+   width: 1700px;
+   z-index: -1;
+   position: absolute;
+   opacity: .5;
+}
+
+.logo4 {
+   width: 400px;
+   z-index: 2;
+   position: absolute;
+   margin-top: 0%;
+   margin-left: -299px;
+   opacity: 1;
+}
+
+.down4 {
+   padding-left: 46%;
+   padding-top: 35%;
+   width: 200px;
+}
+
+.image7 {
+   width: 500px;
+   -webkit-transform: rotate(90deg);
+   -moz-transform: rotate(90deg);
+   -o-transform: rotate(90deg);
+   -ms-transform: rotate(90deg);
+   transform: rotate(90deg);
+   padding-left: 47%;
+   padding-bottom: 69px;
+}
+
+.abouttext {
+   padding-bottom: 1px;
+   margin-left: 57%;
+   font-family: Helvetica, sans-serif;
+   font-size: 26px;
+   width: 300px;
+   margin-top: -100px;
+}
+
+/* Media Queries*/
+
+@media tablet and (max-width: 768px) {
+   body {
+   }
+}
