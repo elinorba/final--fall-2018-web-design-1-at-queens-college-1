@@ -1,0 +1,76 @@
+body {
+   background-color: #181818;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: 76%;
+   background-image: url('../img/trial\ 3.7.jpg');
+   background-position: center;
+}
+
+.container {
+   background-color: black;
+   background-size: cover;
+   margin-top: 575px;
+}
+
+.nav_list {
+   list-style-type: none;
+   position: absolute;
+   left: 429px;
+   margin-top: -520px;
+}
+
+.nav_list li {
+   padding: 0 10px;
+   display: initial;
+}
+
+.nav_list a {
+   font-family: Gilmer, sans-serif;
+   text-decoration: none;
+   color: aliceblue;
+   font-size: 20px;
+   margin-left: 121px;
+   scroll-snap-type: x mandatory;
+}
+
+.greet {
+   font-family: Gilmer, sans-serif;
+   text-decoration: none;
+   color: aliceblue;
+   font-size: 106px;
+   margin-left: 726px;
+   margin-top: -343px;
+   position: absolute;
+   text-indent: -1em;
+   line-height: 90px;
+}
+
+.social {
+   position: absolute;
+   margin-left: 1700px;
+   margin-top: 299px;
+}
+
+.media {
+   position: relative;
+}
+
+.Michael {
+   font-family: Gilmer, sans-serif;
+   text-decoration: none;
+   color: aliceblue;
+   font-size: 23px;
+   position: relative;
+}
+
+.iam {
+   margin-left: 786px;
+   margin-top: -97px;
+   position: absolute;
+}
+
+.logo {
+   margin-top: -468px;
+   position: absolute;
+}
