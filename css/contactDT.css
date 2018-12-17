@@ -1,0 +1,37 @@
+p {
+   text-align: center;
+   line-height: 25px;
+   margin-top: 80px;
+}
+
+header {
+   text-align: center;
+   padding: 20px;
+   margin: auto;
+   border-style: solid;
+   border-width: thin;
+   border-color: black;
+   box-sizing: border-box;
+   width: 80%;
+   height: 520px;
+}
+
+@font-face {
+   font-family: Pacifico;
+   src: url('../fonts/Q_Z9mv4hySLTMoMjnk_rCXYhjbSpvc47ee6xR_80Hnw.woff2') format('woff');
+   font-weight: 400;
+   font-style: normal;
+}
+
+footer {
+   text-align: center;
+   font-size: 8px;
+   margin-top: 35px;
+}
+
+.navvy {
+   display: inline-block;
+   text-align: center;
+   margin-top: 80px;
+   margin-left: 500px;
+}
