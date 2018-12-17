@@ -58,7 +58,7 @@ h3 {
    width: 200px;
    text-align: center;
    top: 1520px;
-   left: 600px;
+   left: 610px;
    position: absolute;
    font-family: Roboto, sans-serif;
 }
@@ -114,12 +114,30 @@ h5 {
    padding: 0;
    line-height: 0;
    margin: 0;
+   top: 554px;
+   position: absolute;
+}
+
+#joker {
+   position: absolute;
+}
+
+#joker :hover {
+   -moz-box-shadow: 0 0 10px #000;
+   -webkit-box-shadow: 0 0 10px #000;
+   box-shadow: 0 0 10px #000;
 }
 
 #miles {
    position: absolute;
    left: 550px;
    top: 151px;
+}
+
+.milesImg:hover {
+   -moz-box-shadow: 0 0 10px #000;
+   -webkit-box-shadow: 0 0 10px #000;
+   box-shadow: 0 0 10px #000;
 }
 
 #p2 {
@@ -147,6 +165,12 @@ h5 {
    top: 155px;
 }
 
+.Posty:hover {
+   -moz-box-shadow: 0 0 10px #000;
+   -webkit-box-shadow: 0 0 10px #000;
+   box-shadow: 0 0 10px #000;
+}
+
 #Postmalone {
    position: absolute;
    text-align: center;
@@ -169,6 +193,12 @@ h5 {
 #John {
    position: absolute;
    top: 800px;
+}
+
+.John:hover {
+   -moz-box-shadow: 0 0 10px #000;
+   -webkit-box-shadow: 0 0 10px #000;
+   box-shadow: 0 0 10px #000;
 }
 
 #thereaper {
@@ -195,6 +225,12 @@ h5 {
    left: 550px;
 }
 
+.Flash:hover {
+   -moz-box-shadow: 0 0 10px #000;
+   -webkit-box-shadow: 0 0 10px #000;
+   box-shadow: 0 0 10px #000;
+}
+
 #TheFlash {
    position: absolute;
    text-align: center;
@@ -218,6 +254,12 @@ h5 {
    position: absolute;
    top: 800px;
    left: 1100px;
+}
+
+.Allmight:hover {
+   -moz-box-shadow: 0 0 10px #000;
+   -webkit-box-shadow: 0 0 10px #000;
+   box-shadow: 0 0 10px #000;
 }
 
 #hero {
@@ -253,57 +295,60 @@ h5 {
    font-family: 'indie flower', sans-serif;
 }
 
-#Name {
+#NameInput {
    border: 3px;
    border-style: solid;
    border-color: black;
    width: 400px;
+   height: 50px;
    text-align: center;
    left: 535px;
    top: 180px;
    position: absolute;
    font-family: Roboto, sans-serif;
-   color: #acacac;
+   font-size: 18px;
 }
 
-#Email {
+#EmailInput {
    border: 3px;
    border-style: solid;
    border-color: black;
    width: 400px;
+   height: 50px;
    text-align: center;
    left: 535px;
    top: 260px;
    position: absolute;
    font-family: Roboto, sans-serif;
-   color: #acacac;
+   font-size: 18px;
 }
 
-#Phone {
+#PhoneInput {
    border: 3px;
    border-style: solid;
    border-color: black;
    width: 400px;
+   height: 50px;
    text-align: center;
    left: 535px;
    top: 340px;
    position: absolute;
    font-family: Roboto, sans-serif;
-   color: #acacac;
+   font-size: 18px;
 }
 
-#Description {
+#DescriptionInput {
    border: 3px;
    border-style: solid;
    border-color: black;
    width: 600px;
+   height: 200px;
    text-align: center;
    left: 435px;
    top: 420px;
    position: absolute;
    font-family: Roboto, sans-serif;
-   color: #acacac;
-   height: 200px;
+   font-size: 18px;
 }
 
 .Send {
@@ -317,7 +362,7 @@ h5 {
    font-size: 24px;
    font-family: Roboto, sans-serif;
    position: absolute;
-   top: 700px;
+   top: 650px;
    left: 675px;
 }
 
