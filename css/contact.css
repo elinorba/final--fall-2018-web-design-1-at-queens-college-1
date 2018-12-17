@@ -14,6 +14,48 @@ h1 {
    font-size: 50px;
 }
 
+.socialmedia {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   position: absolute;
+   top: 200px;
+   left: 350px;
+}
+
+form {
+   width: 450px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   position: absolute;
+   top: 380px;
+   left: 350px;
+}
+
+input {
+   width: 100%;
+}
+
+button {
+   width: 20%;
+}
+
+textarea {
+   resize: vertical;
+   max-height: 300px;
+}
+
+input textarea {
+   outline: none;
+   border: 1px solid ##1c1c1c;
+}
+
+input:focus textarea:focus {
+   box-shadow: 0 0 4px rgba(255, 255, 255, .5);
+   border: 1px solid rgb(255, 255, 255);
+}
+
 .contactfoot {
    width: 170px;
    display: flex;
