@@ -4,24 +4,14 @@
    box-sizing: border-box;
 }
 
-style {
+h1{
    color: #00d4ff;
-   background-color: white;
-}
-
-img {
-   width: 40%;
-   height: 40%;
+   background-color: inherit;
 }
 
 .headernav {
    display: flex;
    justify-content: flex-end;
-}
-
-.right {
-   float: left;
-   padding: 0 20px 20px 0;
 }
 
 .nav {
@@ -31,4 +21,9 @@ img {
    align-items: flex-start;
    justify-content: space-between;
    padding-top: 2px;
+}
+
+.right {
+   float: left;
+   padding: 0 20px 20px 0;
 }
