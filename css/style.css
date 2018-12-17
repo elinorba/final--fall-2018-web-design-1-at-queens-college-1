@@ -39,15 +39,26 @@ nav > a:link {
    width: 100%;
 }
 
-.contact {
+.contact-background {
    /* background-image: url('img/colorsHome.png'); */
    /* color: white; */
+   width: 100%;
+   opacity: .5;
+   position: relative;
+}
+
+.contact {
+   position: absolute;
+   width: 50%;
+   font-weight: 700;
+   color: black;
 }
 
 /*  About CSS*/
 
 .about-content {
    display: inline;
+   /* display: inline-flex; */
    justify-content: flex-end;
 }
 
@@ -67,12 +78,15 @@ nav > a:link {
 .about-background {
    height: 480px;
    width: 50%;
+   /* height: 50%; */
    /* padding-left: 50px; */
 }
 
 #vane {
    /* width: 100%; */
    position: absolute;
+   /* width: 50%; */
+   /* height: 50%; */
 }
 
 /*End About */
@@ -137,6 +151,10 @@ nav > a:link {
 @media (max-width: 400px) {
    .image-container {
       width: 100%;
+   }
+
+   .about-content {
+      display: inline-block;
    }
 }
 
