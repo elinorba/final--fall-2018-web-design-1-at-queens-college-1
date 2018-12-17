@@ -1,6 +1,63 @@
-html {
-
+nav {
     
+    
+    
+}
+
+a:link {
+   text-decoration:none;
+   
+}
+
+h2 {
+    color: #253945;
+}
+
+#photos img {
+    position: static;
+    width: 25%;
+    height: auto;
+}
+
+#photos img:nth-child(1){
+    margin-left: 80px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#photos img:nth-child(2){
+    margin-left: 93px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#photos img:nth-child(3){
+    margin-left: 93px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#photos img:nth-child(4){
+    margin-left: 80px;
+    margin-right: 0px;
+    margin-top: 93px;
+    margin-bottom: 93px;
+}
+
+#photos img:nth-child(5){
+    margin-left: 93px;
+    margin-right: 0px;
+    margin-top: 93px;
+    margin-bottom: 93px;
+}
+
+#photos img:nth-child(6){
+    margin-left: 93px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 93px;
 }
 
 

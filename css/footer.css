@@ -1,14 +1,25 @@
 footer {
-    background-color: navy;
+    background-color: #253945;
     color: inherit;
-    text-align: center;
-    margin: auto;
+    text-align:center;
+    position: relative;
+    
 }
 footer nav{
-    position:relative;
+    text-align: center;
     display:flex;
     justify-content: space-between;
     margin: auto;
-    width: 200px
+    width: 300px;
+    
+}
+
+footer nav a{
+    height: auto;
+    
+    margin:auto;
+    padding: 30px;
+    
+    
 }
 
