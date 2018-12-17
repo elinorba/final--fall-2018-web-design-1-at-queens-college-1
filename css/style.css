@@ -40,14 +40,98 @@ nav > a:link {
    color: white;
 }
 
-img {
+.banner img {
    margin: 30px;
    width: 100%;
 }
 
 .contact {
-   background-image: url('img/colorsHome.png');
+   /* background-image: url('img/colorsHome.png'); */
    /* color: white; */
+}
+
+/*  About CSS*/
+
+.about {
+   /* background-image: url('img/colorsHome.png'); */
+   /* background-color: #ccc; */
+   /* height: 500px; */
+   /* background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative; */
+   /* display: flex;
+   flex-wrap: wrap; */
+}
+
+.about-content {
+   display: inline-flex;
+   background-image: url('img/colorsHome.png');
+   /* position: absolute; */
+}
+
+#about-text {
+   /* position: absolute; */
+   padding: 30px;
+}
+
+#vane {
+   width: 100%;
+   /* position: absolute; */
+}
+
+#background {
+   /* position: relative;
+   opacity: .5; */
+}
+
+/* Works CSS */
+.work-class {
+   text-align: center;
+   margin: 0;
+   padding: 20px 0;
+   width: 100%;
+   background-color: rgba(255, 255, 255, .68);
+   position: absolute;
+   bottom: 0;
+   left: 0;
+}
+
+.work-image {
+   width: 100%;
+}
+
+#container {
+   margin: auto;
+   width: 1000px;
+}
+
+.image-container {
+   position: relative;
+   float: left;
+   width: 50%;
+}
+
+@media (max-width: 1080px) {
+   #container {
+      width: 800px;
+   }
+
+   .image-container {
+      width: 50%;
+   }
+}
+
+@media (max-width: 860px) {
+   #container {
+      width: 93%;
+   }
+}
+
+@media (max-width: 600px) {
+   .image-container {
+      width: 100%;
+   }
 }
 
 .works {
@@ -62,18 +146,4 @@ img {
    border-width: thick; */
    display: inline-flex;
    /* justify-content: center; */
-}
-
-.about {
-   background-image: url('img/colorsHome.png');
-   /* background-color: #ccc; */
-   /* height: 500px; */
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-   position: relative;
-}
-
-.about-content {
-   display: inline-flex;
 }
