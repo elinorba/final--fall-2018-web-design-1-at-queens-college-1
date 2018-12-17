@@ -1,0 +1,42 @@
+main {
+   background: none;
+   background-color: rgb(255, 204, 255);
+}
+
+#title {
+   position: absolute;
+   left: 440px;
+   padding-top: 30px;
+}
+
+.heading {
+   position: absolute;
+   font-family: caveat, sans-serif;
+   font-size: 48px;
+   color: rgb(58, 58, 58);
+}
+
+.heading-name,
+.heading-text {
+   position: absolute;
+   width: 400px;
+}
+
+.heading-text {
+   padding-left: 100px;
+}
+
+.info {
+   position: absolute;
+   font-size: 28px;
+   width: 640px;
+   margin-left: 330px;
+   bottom: -20px;
+}
+
+.self {
+   position: absolute;
+   left: 520px;
+   bottom: -400px;
+   width: 400px;
+}
