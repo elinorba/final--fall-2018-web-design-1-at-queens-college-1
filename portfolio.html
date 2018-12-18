@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+
+   <!-- Replace FIRST NAME and LAST NAME below with your first and last names. -->
+   <title>Ve Lin | Final Project</title>
+
+   <link rel="stylesheet" href="css/reset.css">
+   <link rel="stylesheet" href="css/style-portfolio.css">
+   <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900" rel="stylesheet">
+</head>
+<body>
+   <nav>
+      <div class="web-menu">
+         <a href="index.html">Home</a>
+         <a href="portfolio.html">Portfolio</a>
+         <a href="aboutme.html">About Me</a>
+         <a href="contact.html">Contact</a>
+      </div>
+      <div class="mobile-menu">
+         <div class="sub-menu">
+            <botton class="page-menu"><i class="drop-down">
+               <div class="linetop">
+               </div>
+               <div class="linemid">
+               </div>
+               <div class="linebot">
+               </div>
+            </i></botton>
+            <div class="drop-down-detail">
+               <a href="index.html">Home</a>
+               <a href="portfolio.html">Portfolio</a>
+               <a href="aboutme.html">About Me</a>
+               <a href="contact.html">Contact</a>
+            </div>
+         </div>
+      </div>
+   </nav>
+   <div class="body">
+      <div class="slide-content">
+         <p><a href="landscape.html"><img class="portfolio" src="img/landscape1.jpg" alt="" style="width:100%"></a></P>
+         <p><a href="citylife.html"><img class="portfolio" src="img/citylife2.jpg" alt="" style="width:100%;display:none"></a></P>
+         <p><a href="la-trip.html"><img class="portfolio" src="img/la-trip1.jpg" alt="" style="width:100%;display:none"></a></P>
+         <p><a href="citi-field.html"><img class="portfolio" src="img/citi-field4.jpg" alt="" style="width:100%;display:none"></a></P>
+      </div>
+      <div class="slide-section">
+         <div class="slide-thum">
+            <img class="thum" src="img/landscape1.jpg" alt="" style="width:100%; cursor:pointer" onclick="currentDiv(1)">
+         </div>
+         <div class="slide-thum">
+            <img class="thum" src="img/citylife2.jpg" alt="" style="width:100%; cursor:pointer" onclick="currentDiv(2)">
+         </div>
+         <div class="slide-thum">
+            <img class="thum" src="img/la-trip1.jpg" alt="" style="width:100%; cursor:pointer" onclick="currentDiv(3)">
+         </div>
+         <div class="slide-thum">
+            <img class="thum" src="img/citi-field4.jpg" alt="" style="width:100%; cursor:pointer" onclick="currentDiv(4)">
+         </div>
+      </div>
+      <div class="m-portfolio">
+         <div>
+            <p><a href="landscape.html"><img src="img/landscape1.jpg" alt="" ></a></P>
+         </div>
+         <div>
+            <p><a href="citylife.html"><img src="img/citylife2.jpg" alt="" ></a></P>
+         </div>
+         <div>
+            <p><a href="la-trip.html"><img src="img/la-trip1.jpg" alt="" ></a></P>
+         </div>
+         <div>
+         <p><a href="citi-field.html"><img src="img/citi-field4.jpg" alt="" ></a></P>
+         </div>
+      </div>
+   </div>
+   <script>
+      function currentDiv(n) {
+        showDivs(slideIndex = n);
+      }
+
+      function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("portfolio");
+        var dots = document.getElementsByClassName("thum");
+        if (n > x.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = x.length}
+        for (i = 0; i < x.length; i++) {
+           x[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+           dots[i].className = dots[i].className.replace("w3-opacity-off",);
+        }
+        x[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += "w3-opacity-off";
+      }
+   </script>
+</body>
+</html>

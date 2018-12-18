@@ -1,0 +1,128 @@
+@import 'nav.css';
+
+body {
+   background-image: url('../img/la-trip-2-1.jpg');
+   background-repeat: no-repeat;
+   background-position: top center;
+   background-color: #eaeaea;
+}
+
+.header {
+   text-align: center;
+   height: 640px;
+   color: white;
+}
+
+.header p {
+   position: relative;
+   top: 225px;
+   font-family: 'Roboto', sans-serif;
+   font-size: 25px;
+   font-weight: 400;
+   color: #222;
+}
+
+.header h1 {
+   position: relative;
+   top: 250px;
+   font-family: 'Roboto', sans-serif;
+   font-size: 80px;
+   font-weight: 900;
+   color: #222;
+}
+
+.line-left {
+   margin: 0 auto;
+   position: relative;
+   top: -395px;
+   right: 190px;
+   width: 80px;
+   border-top: 5px solid #222;
+}
+
+.line-right {
+   margin: 0 auto;
+   position: relative;
+   top: -400px;
+   left: 190px;
+   width: 80px;
+   border-top: 5px solid #222;
+}
+
+.portfolio-pic {
+   text-align: center;
+   display: block;
+   margin: 50px 0;
+}
+
+.body-pic div:nth-child(2) {
+   margin-top: 75px;
+}
+
+.body-pic div:last-child {
+   margin-bottom: 125px;
+}
+
+.text-description {
+   position: relative;
+   top: 25px;
+   text-align: center;
+}
+
+.text-description p {
+   font-family: 'Roboto', sans-serif;
+   font-size: 25px;
+   font-weight: 700;
+}
+
+.text-description h3 {
+   font-family: 'Roboto', sans-serif;
+   font-size: 20px;
+   font-weight: 400;
+   padding-top: 10px;
+}
+
+.body-pic {
+   margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+   .portfolio-pic img {
+      width: 85%;
+   }
+}
+
+@media screen and (max-width: 560px) {
+   .header p {
+      display: none;
+   }
+
+   .line-left {
+      display: none;
+   }
+
+   .line-right {
+      display: none;
+   }
+}
+
+@media screen and (max-width: 414px) {
+   body {
+      background-image: none;
+   }
+
+   .header {
+      height: 75px;
+   }
+
+   .header h1 {
+      top: 75px;
+      color: #222;
+      font-size: 50px;
+   }
+
+   .body-pic {
+      position: relative;
+      top: 75px;
+   }
+}

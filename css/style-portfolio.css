@@ -1,0 +1,63 @@
+@import 'nav.css';
+
+html {
+   background-color: #eaeaea;
+}
+
+.body {
+   position: relative;
+   top: 100px;
+   text-align: center;
+}
+
+.slide-content {
+   width: 820px;
+   height: 547px;
+   margin: 0 auto;
+   padding-bottom: 25px;
+}
+
+.slide-section {
+   width: 820px;
+   display: flex;
+   margin: 0 auto;
+}
+
+.m-portfolio {
+   display: none;
+}
+
+@media screen and (max-width: 1024px) {
+   .slide-content {
+      width: 85%;
+      height: 85%;
+   }
+
+   .slide-section {
+      width: 85%;
+   }
+}
+
+@media screen and (max-width: 560px) {
+   .slide-section {
+      display: none;
+   }
+
+   .slide-content {
+      display: none;
+   }
+
+   .m-portfolio {
+      display: block;
+      width: 375px;
+      height: 250px;
+      margin: 0 auto;
+   }
+
+   .m-portfolio img {
+      width: 100%;
+      height: 100%;
+      margin-bottom: 15px;
+      z-index: -1;
+   }
+}
