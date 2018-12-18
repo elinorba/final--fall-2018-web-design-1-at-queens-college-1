@@ -295,11 +295,19 @@ h5 {
    font-family: 'indie flower', sans-serif;
 }
 
+.Container {
+   width: 100%;
+   max-width: 1024px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
 #NameInput {
    border: 3px;
    border-style: solid;
    border-color: black;
-   width: 400px;
+   width: 50%;
+   max-width: 400px;
    height: 50px;
    text-align: center;
    left: 535px;
@@ -386,10 +394,79 @@ h5 {
    left: 685px;
 }
 
-#nicksartt2 {
+.nicksartt2 {
    top: 940px;
    left: 625px;
    position: absolute;
    font-size: 51px;
    font-family: 'indie flower', sans-serif;
+   width: 440px;
+}
+
+@media screen and (max-width: 768px) {
+   #NameInput {
+      width: 200px;
+      left: 235px;
+   }
+
+   #EmailInput {
+      width: 200px;
+      left: 235px;
+   }
+
+   #PhoneInput {
+      width: 200px;
+      left: 235px;
+   }
+
+   #DescriptionInput {
+      width: 400px;
+      left: 135px;
+   }
+
+   .Send {
+      left: 275px;
+   }
+
+   #IG2 {
+      left: 285px;
+   }
+
+   .nicksartt2 {
+      left: 215px;
+   }
+}
+
+@media screen and (max-width: 480px) {
+   #NameInput {
+      width: 200px;
+      left: 125px;
+   }
+
+   #EmailInput {
+      width: 200px;
+      left: 125px;
+   }
+
+   #PhoneInput {
+      width: 200px;
+      left: 125px;
+   }
+
+   #DescriptionInput {
+      width: 400px;
+      left: 25px;
+   }
+
+   .Send {
+      left: 165px;
+   }
+
+   #IG2 {
+      left: 175px;
+   }
+
+   .nicksartt2 {
+      left: 105px;
+   }
 }
