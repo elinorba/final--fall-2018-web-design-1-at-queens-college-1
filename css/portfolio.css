@@ -1,0 +1,20 @@
+html {
+   width: 1440px;
+   background-color: #000;
+}
+
+header {
+   font-family: 'Dancing Script', cursive;
+   background-color: #fbeeda;
+   color: #fff;
+   position: relative;
+   height: 25px;
+}
+
+header h1 {
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 32px;
+   color: #000;
+   text-align: left;
+}
