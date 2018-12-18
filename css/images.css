@@ -18,7 +18,7 @@ html {
    justify-content: space-between;
    position: absolute;
    top: 750px;
-   font-family: Titillium, sans-serif;
+   font-family: 'Titillium Web', sans-serif;
 }
 
 .imagefoot a {
@@ -60,7 +60,7 @@ html {
       justify-content: space-between;
       position: absolute;
       top: 1124px;
-      font-family: Titillium, sans-serif;
+      font-family: 'Titillium Web', sans-serif;
    }
 
    .description {

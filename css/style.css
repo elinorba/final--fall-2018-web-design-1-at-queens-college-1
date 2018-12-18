@@ -8,7 +8,7 @@ h1 {
    top: 230px;
    left: 230px;
    color: white;
-   font-family: Montserrat, sans-serif;
+   font-family: 'Montserrat', sans-serif;
    letter-spacing: 25px;
    width: 1000px;
 }
@@ -18,7 +18,7 @@ h2 {
    top: 290px;
    left: 280px;
    color: white;
-   font-family: Titillium, sans-serif;
+   font-family: 'Titillium Web', sans-serif;
    letter-spacing: 16px;
    width: 1000px;
 }
@@ -34,7 +34,7 @@ h2 {
    justify-content: space-between;
    position: absolute;
    top: 740px;
-   font-family: Titillium, sans-serif;
+   font-family: 'Titillium Web', sans-serif;
 }
 
 a {
@@ -52,7 +52,7 @@ a:hover {
       top: 290px;
       left: 10px;
       color: white;
-      font-family: Titillium, sans-serif;
+      font-family: 'Titillium Web', sans-serif;
       width: 700px;
    }
 
@@ -61,7 +61,7 @@ a:hover {
       top: 350px;
       left: 50px;
       color: white;
-      font-family: Titillium, sans-serif;
+      font-family: 'Titillium Web', sans-serif;
       width: 700px;
    }
 
@@ -72,7 +72,7 @@ a:hover {
       justify-content: space-between;
       position: absolute;
       top: 740px;
-      font-family: Titillium, sans-serif;
+      font-family: 'Titillium Web', sans-serif;
    }
 
    a {
@@ -91,7 +91,7 @@ a:hover {
       top: 290px;
       left: 50px;
       color: white;
-      font-family: Titillium, sans-serif;
+      font-family: 'Titillium Web', sans-serif;
       width: 300px;
       text-align: center;
    }
@@ -101,7 +101,7 @@ a:hover {
       top: 390px;
       left: 50px;
       color: white;
-      font-family: Titillium, sans-serif;
+      font-family: 'Titillium Web', sans-serif;
       width: 300px;
       font-size: 20px;
       text-align: center;
@@ -113,13 +113,18 @@ a:hover {
 
    .phonemenu {
       display: block;
+      left: 30px;
    }
 
-   .phonemenu span {
-      background: grey;
-      width: 40px;
-      height: 5px;
-      display: block;
-      margin-bottom: 2px;
+   .phonemenu a {
+      text-decoration: none;
+   }
+
+   .phonemenu li {
+      list-style: none;
+   }
+
+   li:hover {
+      color: grey;
    }
 }
