@@ -46,3 +46,64 @@ a {
 a:hover {
    color: white;
 }
+
+@media only screen and (max-width: 768px) {
+   h1 {
+      position: absolute;
+      top: 10px;
+      left: 280px;
+      color: white;
+      font-family: Montserrat, sans-serif;
+      letter-spacing: 20px;
+      font-size: 40px;
+   }
+
+   p {
+      position: absolute;
+      top: 490px;
+      width: 450px;
+      left: 180px;
+      color: white;
+      text-align: center;
+   }
+
+   img {
+      position: absolute;
+      top: 5px;
+      left: 10px;
+      z-index: -1;
+      transform: scale(.6);
+   }
+}
+
+@media only screen and (max-width: 400px) {
+   h1 {
+      position: absolute;
+      top: 10px;
+      left: 280px;
+      color: white;
+      font-family: Montserrat, sans-serif;
+      letter-spacing: 20px;
+      font-size: 40px;
+   }
+
+   p {
+      position: absolute;
+      top: 490px;
+      width: 450px;
+      left: 180px;
+      color: white;
+      text-align: center;
+   }
+
+   img {
+      position: absolute;
+      margin: auto;
+      top: 1px;
+      z-index: -1;
+      transform: scale(.5);}
+
+   .aboutfoot {
+      display: none;
+   }
+}
