@@ -167,10 +167,10 @@ h1 {
 
       #imagetag {
          position: absolute;
-         left: 80px;
+         left: 130px;
          top: 225px;
          font-family: Montserrat, sans-serif;
-         letter-spacing: 30px;
+         letter-spacing: 15px;
          font-size: 30px;
          color: white;
       }
@@ -179,6 +179,7 @@ h1 {
          position: absolute;
          left: 20px;
          top: 130px;
+         transform: scale(.8);
          z-index: -1;
       }
 
@@ -187,14 +188,15 @@ h1 {
          left: 20px;
          top: 450px;
          z-index: -1;
+         transform: scale(.8);
       }
 
       #videotag {
          position: absolute;
-         left: 80px;
+         left: 130px;
          top: 550px;
          font-family: Montserrat, sans-serif;
-         letter-spacing: 30px;
+         letter-spacing: 15px;
          font-size: 30px;
          color: white;
       }
