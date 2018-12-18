@@ -40,7 +40,7 @@ header h1 {
 
 .image {
    position: relative;
-   margin-left: 100px;
+   margin-left: 85px;
    margin-top: 200px;
 }
 
@@ -51,5 +51,6 @@ p {
    color: #fbeeda;
    position: relative;
    width: 350px;
+   margin-top: -415px;
    left: 700px;
 }
