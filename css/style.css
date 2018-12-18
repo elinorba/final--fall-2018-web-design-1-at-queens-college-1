@@ -23,6 +23,10 @@ h2 {
    width: 1000px;
 }
 
+.phonemenu {
+   display: none;
+}
+
 .homefoot {
    width: 170px;
    display: flex;
@@ -108,6 +112,10 @@ a:hover {
    }
 
    .phonemenu {
+      display: block;
+   }
+
+   .phonemenu span {
       background: grey;
       width: 40px;
       height: 5px;
