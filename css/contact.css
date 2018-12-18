@@ -8,7 +8,7 @@ h1 {
    position: absolute;
    left: 350px;
    top: 60px;
-   font-family: 'Montserrat', sans-serif;
+   font-family: Montserrat, sans-serif;
    color: white;
    letter-spacing: 30px;
    font-size: 50px;
@@ -66,12 +66,16 @@ input:focus textarea:focus {
 }
 
 a {
-   color: black;
+   color: white;
    text-decoration: none;
 }
 
 a:hover {
    color: white;
+}
+
+.contactmenu {
+   display: none;
 }
 
 @media only screen and (max-width: 768px) {
@@ -93,6 +97,7 @@ a:hover {
       top: 200px;
       left: 100px;
       height: 100px;
+      font-family: Montserrat, sans-serif;
    }
 
    form {
@@ -130,7 +135,7 @@ a:hover {
       font-family: 'Titillium Web', sans-serif;
    }
 
-   a {
+   .contactfoot a {
       color: white;
       text-decoration: none;
    }
@@ -146,7 +151,7 @@ a:hover {
    @media only screen and (max-width: 400px) {
       h1 {
          position: absolute;
-         left: 60px;
+         left: 40px;
          top: 60px;
          font-family: Montserrat, sans-serif;
          color: white;
@@ -201,9 +206,10 @@ a:hover {
 
       .contactmenu a {
          text-decoration: none;
+         color: black;
       }
 
-      .contactemenu li {
+      .contactmenu li {
          list-style: none;
       }
 
