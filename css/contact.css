@@ -14,7 +14,7 @@ main {
    font-size: 48px;
    color: rgb(58, 58, 58);
    top: 4px;
-   left: 152px;
+   left: 132px;
 }
 
 .contact-me {
@@ -30,8 +30,49 @@ main {
 .contact-send-text {
    font-family: caveat, sans-serif;
    font-size: 36px;
-   padding-left: 100px;
+   padding-left: 120px;
    bottom: 16px;
+}
+
+.contact-send {
+   top: 1000px;
+   left: 800px;
+}
+
+.email {
+   position: absolute;
+   width: 720px;
+   height: 50px;
+   border-width: 2px;
+   border-style: solid;
+   border-color: rgb(255, 102, 102);
+   left: 300px;
+   top: 400px;
+}
+
+.email-box {
+   position: relative;
+   font-size: 22px;
+   padding-left: 10px;
+   top: 10px;
+}
+
+.subject {
+   position: absolute;
+   width: 720px;
+   height: 50px;
+   border-width: 2px;
+   border-style: solid;
+   border-color: rgb(255, 102, 102);
+   left: 300px;
+   top: 480px;
+}
+
+.subject-box {
+   position: relative;
+   font-size: 22px;
+   padding-left: 10px;
+   top: 10px;
 }
 
 .text {
@@ -42,7 +83,7 @@ main {
    border-style: solid;
    border-color: rgb(255, 102, 102);
    left: 300px;
-   bottom: -40px;
+   bottom: -120px;
 }
 
 .text-box {
