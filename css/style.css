@@ -46,6 +46,10 @@ a:hover {
    color: white;
 }
 
+.menu {
+   display: none;
+}
+
 @media only screen and (max-width: 768px) {
    .nameintro h1 {
       position: absolute;

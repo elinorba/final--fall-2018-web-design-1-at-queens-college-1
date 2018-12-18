@@ -22,7 +22,7 @@ h1 {
    position: absolute;
    left: 350px;
    top: 60px;
-   font-family: 'Montserrat', sans-serif;
+   font-family: Montserrat, sans-serif;
    color: white;
    letter-spacing: 30px;
    font-size: 50px;
@@ -32,7 +32,7 @@ h1 {
    position: absolute;
    left: 220px;
    top: 325px;
-   font-family: 'Montserrat', sans-serif;
+   font-family: Montserrat, sans-serif;
    letter-spacing: 30px;
    font-size: 30px;
    color: white;
@@ -89,12 +89,16 @@ h1 {
    color: white;
 }
 
+.portoliomenu {
+   display: none;
+}
+
 @media only screen and (max-width: 768px) {
    h1 {
       position: absolute;
       left: 120px;
       top: 20px;
-      font-family: 'Montserrat', sans-serif;
+      font-family: Montserrat, sans-serif;
       color: white;
       letter-spacing: 30px;
       font-size: 40px;}
@@ -103,7 +107,7 @@ h1 {
       position: absolute;
       left: 190px;
       top: 225px;
-      font-family: 'Montserrat', sans-serif;
+      font-family: Montserrat, sans-serif;
       letter-spacing: 30px;
       font-size: 30px;
       color: white;
@@ -127,7 +131,7 @@ h1 {
       position: absolute;
       left: 190px;
       top: 550px;
-      font-family: 'Montserrat', sans-serif;
+      font-family: Montserrat, sans-serif;
       letter-spacing: 30px;
       font-size: 30px;
       color: white;
@@ -173,7 +177,7 @@ h1 {
          position: absolute;
          left: 130px;
          top: 225px;
-         font-family: 'Montserrat', sans-serif;
+         font-family: Montserrat, sans-serif;
          letter-spacing: 15px;
          font-size: 30px;
          color: white;
@@ -199,7 +203,7 @@ h1 {
          position: absolute;
          left: 130px;
          top: 550px;
-         font-family: 'Montserrat', sans-serif;
+         font-family: Montserrat, sans-serif;
          letter-spacing: 15px;
          font-size: 30px;
          color: white;
