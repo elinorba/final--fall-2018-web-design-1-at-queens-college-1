@@ -6,6 +6,15 @@
    <title>Prints | Portfolio | Julia Martinez</title>
    <link rel="stylesheet" href="../css/style.css">
    <link rel="stylesheet" href="../css/prints.css">
+   <link rel="stylesheet" href="../css/colorbox.css" />
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script src="../js/jquery.colorbox.js"></script>
+   <script>
+      $(document).ready(function(){
+         //Examples of how to assign the Colorbox event to elements
+         $(".prints").colorbox();
+      });
+   </script>
 </head>
 <body>
    <header>
@@ -30,7 +39,9 @@
       </ul>
    </nav>
    <main>
-      <img src="../img/pr-dead.jpg" alt="dead">
+      <a class="prints" href="../img/pr-dead2.jpg" title="In Loving Memory">
+         <img src="../img/pr-dead.jpg" alt="dead">
+      </a>
       <img src="../img/pr-green.jpg" alt="green">
       <img src="../img/pr-blue.jpg" alt="blue">
       <img src="../img/pr-love.jpg" alt="love">

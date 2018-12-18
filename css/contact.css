@@ -3,6 +3,25 @@ main {
    background-color: rgb(255, 204, 255);
 }
 
+.contact-me,
+.contact-me-text {
+   position: absolute;
+   z-index: 1;
+}
+
+.contact-me-text {
+   font-family: caveat, sans-serif;
+   font-size: 48px;
+   color: rgb(58, 58, 58);
+   top: 4px;
+   left: 152px;
+}
+
+.contact-me {
+   left: 408px;
+   top: 282px;
+}
+
 .contact-send,
 .contact-send-text {
    position: absolute;

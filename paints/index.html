@@ -6,6 +6,15 @@
    <title>Paintings | Portfolio | Julia Martinez</title>
    <link rel="stylesheet" href="../css/style.css">
    <link rel="stylesheet" href="../css/paints.css">
+   <link rel="stylesheet" href="../css/colorbox.css" />
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script src="../js/jquery.colorbox.js"></script>
+   <script>
+      $(document).ready(function(){
+         //Examples of how to assign the Colorbox event to elements
+         $(".paints").colorbox();
+      });
+   </script>
 </head>
 <body>
    <header>
@@ -30,14 +39,30 @@
       </ul>
    </nav>
    <main>
-      <img src="../img/pa-wolf.jpg" alt="wolf">
-      <img src="../img/pa-road.jpg" alt="road">
-      <img src="../img/pa-woman.jpg" alt="woman">
-      <img src="../img/pa-view.jpg" alt="view">
-      <img src="../img/pa-tomatoe.jpg" alt="tomatoe">
-      <img src="../img/pa-cats.jpg" alt="cats">
-      <img src="../img/pa-fence.jpg" alt="fence">
-      <img src="../img/pa-double.jpg" alt="double">
+      <a class="paints" href="../img/pa-wolf2.jpg" title="Acrylic: Winter Tranguility">
+         <img src="../img/pa-wolf.jpg" alt="wolf">
+      </a>
+      <a class="paints" href="../img/pa-road2.jpg" title="Oil: On THe Road">
+         <img src="../img/pa-road.jpg" alt="road">
+      </a>
+      <a class="paints" href="../img/pa-woman2.jpg" title="Water Color: Woman; follow palletes within colorwheel">
+         <img src="../img/pa-woman.jpg" alt="woman">
+      </a>
+      <a class="paints" href="../img/pa-view2.jpg" title="Oil: City View; re-paint">
+         <img src="../img/pa-view.jpg" alt="view">
+      </a>
+      <a class="paints" href="../img/pa-tomatoe2.jpg" title="Oil: Tomatoe">
+         <img src="../img/pa-tomatoe.jpg" alt="tomatoe">
+      </a>
+      <a class="paints" href="../img/pa-cats.jpg" title="Acrylic: Row of Cats; Complimentary colors of Orange and Blue">
+         <img src="../img/pa-cats.jpg" alt="cats">
+      </a>
+      <a class="paints" href="../img/pa-fence2.jpg" title="Oil: Fenced Up">
+         <img src="../img/pa-fence.jpg" alt="fence">
+      </a>
+      <a class="paints" href="../img/pa-double2.jpg" title="Acrylic: The Double Effect">
+         <img src="../img/pa-double.jpg" alt="double">
+      </a>
    </main>
    <footer>
       <ul class="end">

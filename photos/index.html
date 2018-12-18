@@ -6,6 +6,15 @@
    <title>Photography | Portfolio | Julia Martinez</title>
    <link rel="stylesheet" href="../css/style.css">
    <link rel="stylesheet" href="../css/photos.css">
+   <link rel="stylesheet" href="../css/colorbox.css" />
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script src="../js/jquery.colorbox.js"></script>
+   <script>
+      $(document).ready(function(){
+         //Examples of how to assign the Colorbox event to elements
+         $(".photos").colorbox();
+      });
+   </script>
 </head>
 <body>
    <header>
@@ -30,7 +39,9 @@
       </ul>
    </nav>
    <main>
-      <img src="../img/ph-dark.jpg" alt="dark">
+      <a class="photos" href="../img/ph-dark2.jpg" title="Film: SunLight; Darkroom">
+         <img src="../img/ph-dark.jpg" alt="dark">
+      </a>
       <img src="../img/ph-river.jpg" alt="river">
       <img src="../img/ph-tree.jpg" alt="tree">
       <img src="../img/ph-car.jpg" alt="car">
