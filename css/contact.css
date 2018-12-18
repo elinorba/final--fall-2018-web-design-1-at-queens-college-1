@@ -79,7 +79,7 @@ a:hover {
       position: absolute;
       left: 100px;
       top: 60px;
-      font-family: 'Montserrat', sans-serif;
+      font-family: Montserrat, sans-serif;
       color: white;
       letter-spacing: 30px;
       font-size: 50px;
@@ -128,7 +128,6 @@ a:hover {
       position: absolute;
       top: 790px;
       font-family: 'Titillium Web', sans-serif;
-      color: white;
    }
 
    a {
@@ -140,12 +139,16 @@ a:hover {
       color: white;
    }
 
+   .contactmenu {
+      display: none;
+   }
+
    @media only screen and (max-width: 400px) {
       h1 {
          position: absolute;
          left: 60px;
          top: 60px;
-         font-family: 'Montserrat', sans-serif;
+         font-family: Montserrat, sans-serif;
          color: white;
          letter-spacing: 25px;
          font-size: 40px;
