@@ -1,0 +1,187 @@
+html {
+   width: 1260px;
+   background-color: #f2f6ff;
+}
+
+body {
+   margin: 0;
+   font-family: lora, serif;
+   text-align: center;
+}
+
+h1 {
+   display: none;
+   margin: 0;
+}
+
+a:link {
+   color: black;
+   text-decoration: none;
+   transition: 1000ms;
+   border-bottom: 4px solid transparent;
+}
+
+a:visited {
+   color: #3e420a;
+}
+
+a:hover {
+   color: #83429c;
+   border-bottom-color: red;
+}
+
+a:active {
+   color: orange;
+}
+
+nav {
+   width: 610px;
+   font-family: Oswald, sans-serif;
+   font-size: 22px;
+   line-height: 44px;
+   display: flex;
+   justify-content: space-between;
+   position: relative;
+   top: 110px;
+   left: 575px;
+}
+
+body > img:first-of-type {
+   position: relative;
+   top: -125px;
+   left: -450px;
+}
+
+body > p:first-of-type {
+   font-family: Quantico, sans-serif;
+   position: relative;
+   text-decoration: underline;
+   top: 160px;
+   font-size: 34px;
+   text-align: center;
+}
+
+#container {
+   margin: auto;
+   text-align: center;
+   position: relative;
+   display: flex;
+   flex-wrap: wrap;
+   width: 1200px;
+}
+
+.item {
+   margin: auto;
+   position: relative;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+@media screen and (min-width: 1260px) {
+   #container {
+      width: 91%;
+   }
+
+   .item {
+      width: 100%;
+   }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1259px) {
+   img {
+      width: 20%;
+   }
+
+   nav {
+      width: 36%;
+   }
+
+   #container {
+      width: 90%;
+   }
+
+   .item {
+      width: 100%;
+   }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+   html {
+      width: 100%;
+   }
+
+   body > img:first-of-type {
+      display: inline;
+      top: 0;
+      left: 0;
+      margin: auto;
+      position: static;
+      width: 20%;
+   }
+
+   body > p {
+      top: 0;
+      left: 0;
+      margin: auto;
+      width: 50%;
+      display: block;
+   }
+
+   nav {
+      margin: auto;
+      position: static;
+      width: 50%;
+   }
+
+   nav a {
+      width: 50%;
+   }
+
+   #container {
+      margin: auto;
+      display: block;
+      width: 95%;
+   }
+
+   .item {
+      width: 95%;
+   }
+}
+
+@media screen and (max-width: 425px) {
+   html {
+      width: 100%;
+   }
+
+   body > p {
+      width: 50%;
+   }
+
+   img {
+      position: unset;
+      width: 20%;
+   }
+
+   nav {
+      position: static;
+      display: block;
+      width: 50%;
+   }
+
+   nav a {
+      position: static;
+      display: block;
+      width: 50%;
+   }
+
+   #container {
+      display: block;
+      width: 100%;
+   }
+
+   .item {
+      margin: 0;
+      display: block;
+      width: 92%;
+   }
+}
