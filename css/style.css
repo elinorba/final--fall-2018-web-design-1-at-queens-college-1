@@ -1,45 +1,52 @@
 html {
-   width: 1440px;
+   width: 1425px;
    background-color: #000;
 }
 
 header {
    font-family: 'Dancing Script', cursive;
-   background-color: #fbeeda;
-   color: #fff;
-   position: relative;
-   height: 28px;
-   top: 8px;
+   color: #fbeeda;
+   width: 1440px;
+   margin: -109px;
 }
 
 header h1 {
-   font-size: 24px;
+   font-size: 220px;
    text-align: center;
-   color: #000;
+   padding-left: 240px;
 }
 
-#nav_container ul {
+ul {
+   font-family: 'Dancing Script', cursive;
+   font-size: 30px;
+   text-align: center;
+}
+
+nav > ul {
+   width: 150px;
+   margin-left: 670px;
+   margin-top: -250px;
+   padding: 0;
    list-style: none;
 }
 
-#nav_container ul li {
-   display: inline;
+nav > ul > li {
+   position: relative;
+   margin: 0;
 }
 
-#nav_container ul li a {
-   background-color: #fbeeda;
-   color: #000;
-   padding: 5px 140px;
+.nav {
+   position: relative;
+   margin-top: -250px;
+}
+
+a {
    text-decoration: none;
-}
-
-#nav_container ul li a:hover {
-   background-color: #000;
    color: #fbeeda;
 }
 
-#container {
-   margin-left: 162px;
-   width: 1330px;
-   height: 1000px;
+.dark {
+   position: relative;
+   margin-top: -20px;
+   left: 543px;
 }

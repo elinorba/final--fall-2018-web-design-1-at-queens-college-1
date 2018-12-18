@@ -39,6 +39,8 @@ header h1 {
 }
 
 .box p {
+   font-family: 'Dancing Script', cursive;
+   font-weight: 400;
    font-size: 24px;
    text-align: center;
    width: 300px;
@@ -51,6 +53,24 @@ header h1 {
 .text {
    background-color: #fbeeda;
    width: 300px;
-   height: 500px;
+   height: 400px;
    margin-left: 200px;
+}
+
+.send {
+   font-family: 'Dancing Script', cursive;
+   font-weight: 400;
+   font-size: 24px;
+   text-align: center;
+   background-color: #fff;
+   width: 60px;
+   height: 24px;
+   margin-top: 30px;
+   margin-left: 320px;
+}
+
+.flower {
+   position: relative;
+   margin-top: -520px;
+   margin-left: 720px;
 }
