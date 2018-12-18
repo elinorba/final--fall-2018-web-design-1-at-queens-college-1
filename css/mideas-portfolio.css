@@ -1,0 +1,97 @@
+.body {
+   background-color: white;
+}
+
+.nav {
+   width: 100%;
+   height: 50px;
+   padding-left: 25%;
+}
+
+.nav_list {
+   list-style-type: none;
+   margin-left: -858px;
+   margin-top: -555px;
+   position: absolute;
+}
+
+.nav_list li {
+   padding: 0 10px;
+   display: initial;
+}
+
+.nav_list a {
+   font-family: Gilmer, sans-serif;
+   text-decoration: none;
+   color: rgb(17, 16, 16);
+   font-size: 20px;
+   margin-left: 300px;
+}
+
+.container {
+   background-color: beige;
+   background-attachment: fixed;
+   background-size: cover;
+   padding: 579px;
+   width: 1000px;
+}
+
+.Slash {
+   position: relative;
+   top: -257px;
+   left: -488px;
+}
+
+.nets {
+   position: relative;
+   top: -657px;
+   left: 512px;
+}
+
+.found {
+   position: relative;
+   top: -659px;
+   left: -488px;
+}
+
+.ani {
+   position: absolute;
+   top: 680px;
+   right: 1472px;
+}
+
+.motion {
+   height: 200px;
+   width: 300px;
+   left: 1099px;
+   position: relative;
+   top: 97px;
+}
+
+.run {
+   position: relative;
+}
+
+.nike {
+   position: absolute;
+   top: 385px;
+   left: 97px;
+}
+
+.mexican {
+   position: absolute;
+   top: 1178px;
+   left: 100px;
+}
+
+.magic {
+   position: relative;
+   left: 416px;
+   bottom: 709px;
+}
+
+.sound {
+   position: relative;
+   left: 584px;
+   top: -303px;
+}
