@@ -1,20 +1,39 @@
 html{
    background-image: none;
+   background-color: white;
 }
-
 img {
    width: 100%;
 }
 
+.header a {
+   font-family: Poppins, 'Myriad pro', sans-serif;
+   font-size: 14px;
+   color: black;
+   text-align: left;
+   text-decoration: none;
+}
+
+.KC p {
+   position: fixed;
+   font-family: Poppins, 'Myriad pro', sans-serif;
+   font-size: 36px;
+   top: -10px;
+   left: 20px;
+   color: black;
+   z-index: 900;
+}
+
 .image-container p {
-  font-family: 'Poppins' sans-serif;
-  font-size: 24px;
+   font-family: Poppins, 'Myriad pro', sans-serif;
+   font-size: 24px;
    text-align: center;
    margin: 0;
-   padding: 20px 0;
+   padding: 10px 0;
    width: 100%;
    position: absolute;
-   bottom: 0;
+   top: 450px;
+
    left: 0;
 }
 
