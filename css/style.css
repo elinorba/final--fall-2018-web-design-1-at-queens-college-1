@@ -4,10 +4,16 @@ html {
    background-color: #fff;
 }
 
+header {
+   font-family: 'Freckle Face', cursive;
+   font-size: 60px;
+   text-align: center;
+}
+
 .dark {
    position: relative;
-   top: 158px;
-   left: 542px;
+   margin-top: -10px;
+   left: 543px;
 }
 
 ul {
