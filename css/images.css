@@ -14,11 +14,11 @@ html {
    font-family: Titillium, sans-serif;
 }
 
-.portoliofoot a {
+.imagefoot a {
    color: black;
    text-decoration: none;
 }
 
-.portoliofoot a:hover {
+.imagefoot a:hover {
    color: white;
 }
