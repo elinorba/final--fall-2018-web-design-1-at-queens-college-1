@@ -10,6 +10,7 @@ h1 {
    color: white;
    font-family: Montserrat, sans-serif;
    letter-spacing: 25px;
+   width: 100px;
 }
 
 h2 {
@@ -38,4 +39,24 @@ a {
 
 a:hover {
    color: white;
+}
+
+@media only screen and (max-width: 768px) {
+   .nameintro h1 {
+      position: absolute;
+      top: 290px;
+      left: 10px;
+      color: white;
+      font-family: Titillium, sans-serif;
+      width: 700px;
+   }
+
+   .nameintro h2 {
+      position: absolute;
+      top: 350px;
+      left: 50px;
+      color: white;
+      font-family: Titillium, sans-serif;
+      width: 700px;
+   }
 }
