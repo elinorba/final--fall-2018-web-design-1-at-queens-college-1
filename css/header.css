@@ -14,7 +14,7 @@
 }
 
 #landing-header p:first-of-type {
-   margin-top: 280px;
+   margin-top: 240px;
    width: auto;
    height: 100%;
    text-align: center;
@@ -80,9 +80,9 @@ nav {
 
 @media screen and (min-width: 992px) {
    #landing-header p:first-of-type {
-      margin-top: 600px;
+      margin-top: 500px;
       font-size: 130px;
-   }
+}
    nav {
       position: relative;
       display: flex;
@@ -92,26 +92,26 @@ nav {
       font-family: roboto, sans-serif;
       font-size: 30px;
       margin-top: -142px;
-      margin-left: 710px;
+      margin-left: 610px;
       margin-right: 80px;
-      
-   }
+      padding-left: 10px;
+}
    h1 {
       text-align: left;
-      margin-left: 30px;
+      margin-left: 80px;
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 900px) {
    #landing-header p:first-of-type {
-      margin-top: 600px;
+      margin-top: 500px;
       font-size: 140px;
    }
 }
 
 @media screen and (min-width: 2000px) {
    #landing-header p:first-of-type {
-      margin-top: 1000px;
+      margin-top: 800px;
       font-size: 200px;
    }
 
