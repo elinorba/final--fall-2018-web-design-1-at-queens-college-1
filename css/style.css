@@ -1,44 +1,42 @@
 html {
    width: 1425px;
-   height: 800px;
-   background-color: #fff;
+   background-color: #000;
 }
 
 header {
    font-family: 'Dancing Script', cursive;
    color: #fbeeda;
-   width: 1425px;
-   height: 192px;
+   width: 1440px;
+   margin: -90px;
 }
 
 header h1 {
-   font-size: 120px;
+   font-size: 220px;
    text-align: center;
+   padding-left: 200px;
 }
 
 ul {
    font-family: 'Dancing Script', cursive;
    font-size: 30px;
    text-align: center;
-   list-style: none;
-   width: 450px;
-   margin-left: 100px;
 }
 
 nav > ul {
-   margin: 0;
+   width: 150px;
+   margin-left: 670px;
+   margin-top: -250px;
    padding: 0;
    list-style: none;
 }
 
 nav > ul > li {
    position: relative;
-   flex-grow: 1;
    margin: 0;
 }
 
 .dark {
    position: relative;
-   margin-top: -10px;
+   margin-top: -50px;
    left: 543px;
 }
