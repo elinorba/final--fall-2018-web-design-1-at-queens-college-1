@@ -5,7 +5,7 @@ html {
 }
 
 header {
-   font-family: 'Freckle Face', cursive;
+   font-family: 'Dancing Script', cursive;
    font-size: 60px;
    text-align: center;
 }
@@ -17,7 +17,7 @@ header {
 }
 
 ul {
-   margin: auto;
+   font-family: 'Dancing Script', cursive;
    text-align: center;
    list-style: none;
    display: block;
@@ -39,5 +39,4 @@ nav > ul > li {
    margin: 0;
    background-color: #8c6239;
    width: 150px;
-   color: #fff;
 }
