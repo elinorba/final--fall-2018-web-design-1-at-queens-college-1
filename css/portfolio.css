@@ -44,16 +44,6 @@ header h1 {
    height: 1000px;
 }
 
-.image-container {
-   position: relative;
-   float: left;
-   width: 25%;
-}
-
-img {
-   width: 100%;
-}
-
 @media (max-width: 1440px) {
    #container {
       width: 800px;
@@ -62,6 +52,13 @@ img {
    .image-container {
       width: 50%;
    }
+}
+
+.image-container,
+.image-container-b {
+   display: inline-block;
+   width: 1400px;
+   padding-right: 10px;
 }
 
 @media (max-width: 860px) {
