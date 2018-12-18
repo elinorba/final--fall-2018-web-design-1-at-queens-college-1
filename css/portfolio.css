@@ -39,9 +39,15 @@ header h1 {
 }
 
 #container {
-   margin-left: 40px;
+   margin-left: 162px;
    width: 1330px;
    height: 1000px;
+}
+
+img {
+   margin-top: 18px;
+   margin-right: 50px;
+   margin-bottom: 2px;
 }
 
 @media (max-width: 1440px) {
