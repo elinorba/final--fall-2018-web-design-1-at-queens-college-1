@@ -151,4 +151,56 @@ h1 {
    .portoliofoot a:hover {
       color: white;
    }
+
+   @media only screen and (max-width: 500px) {
+      h1 {
+         position: absolute;
+         top: 20px;
+         left: 50px;
+         color: white;
+         font-family: Titillium, sans-serif;
+         width: 300px;
+         text-align: center;
+         font-size: 25px;
+         letter-spacing: 15px;
+      }
+
+      #imagetag {
+         position: absolute;
+         left: 80px;
+         top: 225px;
+         font-family: Montserrat, sans-serif;
+         letter-spacing: 30px;
+         font-size: 30px;
+         color: white;
+      }
+
+      #imagesnap {
+         position: absolute;
+         left: 20px;
+         top: 130px;
+         z-index: -1;
+      }
+
+      #videosnap {
+         position: absolute;
+         left: 20px;
+         top: 450px;
+         z-index: -1;
+      }
+
+      #videotag {
+         position: absolute;
+         left: 80px;
+         top: 550px;
+         font-family: Montserrat, sans-serif;
+         letter-spacing: 30px;
+         font-size: 30px;
+         color: white;
+      }
+
+      .portoliofoot {
+         display: none;
+      }
+   }
 }
