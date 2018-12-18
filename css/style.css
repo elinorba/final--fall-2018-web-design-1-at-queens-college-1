@@ -1,0 +1,97 @@
+html {
+   background-image: url('../img/main1.jpg');
+   background-repeat: no-repeat;
+   background-size: 1122px 500px;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+   width: 1122px;
+   height: 500px;
+   overflow-x: hidden;
+   overflow-y: scroll;
+}
+
+.KC p {
+   position: fixed;
+   font-family: Poppins, 'Myriad pro', sans-serif;
+   font-size: 36px;
+   top: -10px;
+   left: 20px;
+   color: #848484;
+   z-index: 900;
+}
+
+.nav-bar {
+   position: fixed;
+   top: 0;
+   background-color: black;
+   width: 1122px;
+   height: 100px;
+   z-index: 1;
+}
+
+.header {
+   display: flex;
+   position: fixed;
+   top: 35px;
+   right: 20px;
+   width: 300px;
+   justify-content: space-between;
+   z-index: 900;
+}
+
+.header a {
+   font-family: Poppins, 'Myriad pro', sans-serif;
+   font-size: 14px;
+   color: white;
+   text-align: left;
+   text-decoration: none;
+}
+
+.main h2 {
+   position: absolute;
+   font-family: Poppins, 'Myriad pro', sans-serif;
+   font-size: 38px;
+   line-height: 45px;
+   top: 200px;
+   left: 330px;
+}
+
+.main p {
+   position: relative;
+   font-family: Poppins, 'Myriad pro', sans-serif;
+   font-size: 24px;
+   line-height: 28px;
+   top: 250px;
+   left: 400px;
+}
+
+.social-media {
+   position: absolute;
+   top: 500px;
+   width: 100%;
+   height: 90px;
+   background-color: #e6e7e8;
+   z-index: -1;
+}
+
+.social-media img {
+   background-image: url('../instragram-logo.png');
+   position: absolute;
+   top: 25px;
+   left: 480px;
+}
+
+.nav-bar {
+  display: none;
+}
+
+footer {
+  padding: 20px 0 20px 12px  ;
+  background-color: white;
+   position: relative;
+   z-index: 1000000000;
+   top: 500px;
+}
