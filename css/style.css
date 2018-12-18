@@ -1,0 +1,160 @@
+body {
+   font-family: Niramit, sans-serif;
+}
+
+header {
+   height: 60px;
+   background-color: rgb(6, 220, 255);
+   color: white;
+   position: relative;
+   margin: 30px;
+   text-align: center;
+   font-size: 18px;
+}
+
+nav {
+   display: inline-flex;
+   width: 100%;
+   margin: 30px;
+   /* text-align: center; */
+   justify-content: space-between;
+}
+
+nav > a {
+   background-color: rgb(204, 153, 255);
+   color: white;
+   display: inline-flex;
+}
+
+nav > a:link {
+   text-decoration: none;
+   padding: 2px 10px;
+   border: 20px solid white;
+   background-color: rgb(204, 153, 255);
+   color: white;
+}
+
+.banner img {
+   margin: 30px;
+   width: 100%;
+}
+
+.contact-background {
+   /* background-image: url('img/colorsHome.png'); */
+   /* color: white; */
+   width: 100%;
+   opacity: .5;
+   position: relative;
+}
+
+.contact {
+   position: absolute;
+   width: 50%;
+   font-weight: 700;
+   color: black;
+}
+
+/*  About CSS*/
+
+.about-content {
+   display: inline;
+   /* display: inline-flex; */
+   justify-content: flex-end;
+}
+
+#about-text {
+   text-align: center;
+   justify-content: center;
+   margin: 0;
+   padding: 50px;
+   width: 25%;
+   color: white;
+   font-weight: 700;
+   position: absolute;
+   bottom: 0;
+   left: 0;
+}
+
+.about-background {
+   height: 480px;
+   width: 50%;
+   /* height: 50%; */
+   /* padding-left: 50px; */
+}
+
+#vane {
+   /* width: 100%; */
+   position: absolute;
+   /* width: 50%; */
+   /* height: 50%; */
+}
+
+/*End About */
+
+/* Works CSS */
+
+.work-class {
+   text-align: center;
+   /* justify-content: center; */
+   margin: 0;
+   padding: 20px 0;
+   width: 100%;
+   background-color: rgba(255, 255, 255, .68);
+   color: black;
+   position: absolute;
+   bottom: 0;
+   left: 0;
+}
+
+.work-title {
+   /* background-color: rgba(0, 0, 0, .5); */
+   color: black;
+}
+
+.work-image {
+   width: 100%;
+}
+
+#container {
+   margin: auto;
+   width: 1000px;
+}
+
+.image-container {
+   position: relative;
+   float: left;
+   width: 50%;
+   /* padding: 2px; */
+}
+
+@media (max-width: 1024px) {
+   #container {
+      width: 800px;
+   }
+
+   .image-container {
+      width: 50%;
+   }
+
+   nav {
+      width: 50%;
+      display: inline-block;
+   }
+}
+
+@media (max-width: 768px) {
+   #container {
+      width: 93%;
+   }
+}
+
+@media (max-width: 400px) {
+   .image-container {
+      width: 100%;
+   }
+
+   .about-content {
+      display: inline-block;
+   }
+}
+
