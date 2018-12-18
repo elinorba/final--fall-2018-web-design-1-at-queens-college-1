@@ -1,7 +1,7 @@
 html {
    width: 1425px;
    height: 800px;
-   background-color: #000;
+   background-color: #fff;
 }
 
 header {
@@ -16,21 +16,16 @@ header h1 {
    text-align: center;
 }
 
-.dark {
-   position: relative;
-   margin-top: -10px;
-   left: 543px;
-}
-
 ul {
    font-family: 'Dancing Script', cursive;
    font-size: 30px;
    text-align: center;
    list-style: none;
+   width: 450px;
+   margin-left: 100px;
 }
 
 nav > ul {
-   display: flex;
    margin: 0;
    padding: 0;
    list-style: none;
@@ -40,4 +35,10 @@ nav > ul > li {
    position: relative;
    flex-grow: 1;
    margin: 0;
+}
+
+.dark {
+   position: relative;
+   margin-top: -10px;
+   left: 543px;
 }
