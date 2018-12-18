@@ -47,6 +47,10 @@ a:hover {
    color: white;
 }
 
+.aboutmenu{
+   display: none;
+}
+
 @media only screen and (max-width: 768px) {
    h1 {
       position: absolute;
@@ -76,7 +80,7 @@ a:hover {
    }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 400px) {
    h1 {
       position: absolute;
       top: 10px;
@@ -109,5 +113,23 @@ a:hover {
 
    .aboutfoot {
       display: none;
+   }
+
+   .aboutmenu {
+      display: block;
+      margin-left: -30px;
+      font-family: 'Titillium Web', sans-serif;
+   }
+
+   .aboutmenu a {
+      text-decoration: none;
+   }
+
+   .aboutmenu li {
+      list-style: none;
+   }
+
+   li:hover {
+      color: grey;
    }
 }

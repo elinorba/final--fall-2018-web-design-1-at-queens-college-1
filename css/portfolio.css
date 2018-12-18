@@ -152,6 +152,10 @@ h1 {
       color: white;
    }
 
+   .portoliomenu {
+      display: none;
+   }
+
    @media only screen and (max-width: 400px) {
       h1 {
          position: absolute;
@@ -203,6 +207,25 @@ h1 {
 
       .portoliofoot {
          display: none;
+      }
+
+      .portoliomenu {
+         display: block;
+         margin-left: -20px;
+         font-family: 'Titillium Web', sans-serif;
+      }
+
+      .portoliomenu a {
+         text-decoration: none;
+         color: black;
+      }
+
+      .portoliomenu li {
+         list-style: none;
+      }
+
+      li:hover {
+         color: grey;
       }
    }
 }
