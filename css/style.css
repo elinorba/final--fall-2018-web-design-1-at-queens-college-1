@@ -35,6 +35,27 @@ a {
    width: 100%;
 }
 
+a:hover {
+   text-decoration: none;
+   color: black;
+}
+
+a:visited {
+   text-decoration: none;
+   color: black;
+}
+
+a:focus {
+   text-decoration: none;
+   color: black;
+}
+
+a:hover,
+a:active {
+   text-decoration: none;
+   color: white;
+}
+
 h2 {
    position: absolute;
    top: 790px;
@@ -63,7 +84,6 @@ h3 {
    position: absolute;
    font-family: Roboto, sans-serif;
    text-decoration: none;
-   background-color: #acacac;
 }
 
 h3 {
@@ -72,7 +92,7 @@ h3 {
 }
 
 h3:hover {
-   background-color: white;
+   background-color: #acacac;
    color: black;
 }
 
