@@ -97,6 +97,8 @@ h5 {
    left: 450px;
 }
 
+/*Portfolio page*/
+
 #p1 {
    text-align: center;
    width: 300px;
@@ -295,11 +297,154 @@ h5 {
    font-family: 'indie flower', sans-serif;
 }
 
-.Container {
-   width: 100%;
-   max-width: 1024px;
-   margin-left: auto;
-   margin-right: auto;
+@media screen and (max-width: 768px) {
+   #posty {
+      display: none;
+   }
+
+   #Postmalone {
+      display: none;
+   }
+
+   #p3 {
+      display: none;
+   }
+
+   #allmight {
+      display: none;
+   }
+
+   #hero {
+      display: none;
+   }
+
+   #p6 {
+      display: none;
+   }
+
+   #THEJOKER {
+      left: 400px;
+      top: 330px;
+   }
+
+   #Spiderverse {
+      left: 20px;
+      top: 750px;
+   }
+
+   #p2 {
+      left: 7px;
+      top: 790px;
+   }
+
+   #John {
+      top: 1150px;
+   }
+
+   #thereaper {
+      left: 400px;
+      top: 1280px;
+   }
+
+   #p4 {
+      left: 440px;
+      top: 1320px;
+   }
+
+   #TheFlash {
+      top: 1820px;
+      left: 20px;
+   }
+
+   #p5 {
+      top: 1860px;
+      left: 10px;
+   }
+
+   #IG {
+      top: 2200px;
+      left: 310px;
+   }
+
+   #nicksartt {
+      top: 2230px;
+      left: 250px;
+   }
+
+   #p1 {
+      left: 435px;
+      top: 350px;
+   }
+
+   #miles {
+      top: 650px;
+      left: 340px;
+   }
+
+   #Flash {
+      top: 1650px;
+      left: 340px;
+   }
+}
+
+@media screen and (max-width: 480px) {
+   #Flash {
+      display: none;
+   }
+
+   #miles {
+      display: none;
+   }
+
+   #THEJOKER {
+      left: 5px;
+      top: 570px;
+   }
+
+   #p1 {
+      left: 40px;
+      top: 600px;
+   }
+
+   #Spiderverse {
+      display: none;
+   }
+
+   #p2 {
+      display: none;
+   }
+
+   #TheFlash {
+      display: none;
+   }
+
+   #p5 {
+      display: none;
+   }
+
+   #thereaper {
+      top: 1150px;
+      left: 5px;
+   }
+
+   #p4 {
+      top: 1200px;
+      left: 50px;
+   }
+
+   #IG {
+      top: 1350px;
+      left: 150px;
+   }
+
+   #nicksartt {
+      top: 1380px;
+      left: 80px;
+   }
+
+   #John {
+      top: 750px;
+   }
 }
 
 #NameInput {
@@ -404,6 +549,7 @@ h5 {
 }
 
 @media screen and (max-width: 768px) {
+   /*This is for the Contact me pages*/
    #NameInput {
       width: 200px;
       left: 235px;
@@ -435,9 +581,11 @@ h5 {
    .nicksartt2 {
       left: 215px;
    }
+   /*This is for the Portfolio pages*/
 }
 
 @media screen and (max-width: 480px) {
+   /*This is for the Contact me pages*/
    #NameInput {
       width: 200px;
       left: 125px;
