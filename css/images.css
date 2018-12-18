@@ -30,6 +30,18 @@ html {
    color: white;
 }
 
+.description {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   width: 600px;
+   position: absolute;
+   top: 450px;
+   left: 170px;
+   font-size: 25px;
+   color: black;
+}
+
 @media only screen and (max-width: 768px) {
    .images {
       transform: scale(.5);
@@ -49,7 +61,21 @@ html {
       position: absolute;
       top: 1124px;
       font-family: Titillium, sans-serif;
-   } }
+   }
+
+   .description {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 100px;
+      height: 800px;
+      position: absolute;
+      top: 170px;
+      left: 100px;
+      font-size: 25px;
+      color: black;
+   }
+}
 
 @media only screen and (max-width: 500px) {
    .images {
@@ -60,6 +86,19 @@ html {
       display: flex;
       flex-direction: column;
       align-content: center;
+   }
+
+   .description {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 80px;
+      height: 700px;
+      position: absolute;
+      top: 170px;
+      left: 60px;
+      font-size: 25px;
+      color: black;
    }
 
    .imagefoot {
