@@ -1,12 +1,18 @@
 html {
    width: 1425px;
    height: 800px;
-   background-color: #fff;
+   background-color: #000;
 }
 
 header {
    font-family: 'Dancing Script', cursive;
-   font-size: 60px;
+   color: #fbeeda;
+   width: 1425px;
+   height: 192px;
+}
+
+header h1 {
+   font-size: 120px;
    text-align: center;
 }
 
@@ -18,12 +24,9 @@ header {
 
 ul {
    font-family: 'Dancing Script', cursive;
+   font-size: 30px;
    text-align: center;
    list-style: none;
-   display: block;
-   width: 900px;
-   height: 50px;
-   line-height: 10px;
 }
 
 nav > ul {
@@ -37,6 +40,4 @@ nav > ul > li {
    position: relative;
    flex-grow: 1;
    margin: 0;
-   background-color: #8c6239;
-   width: 150px;
 }
