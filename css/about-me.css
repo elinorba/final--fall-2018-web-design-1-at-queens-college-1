@@ -28,10 +28,15 @@ main {
 
 .info {
    position: absolute;
+}
+
+.info1,
+.info2 {
+   position: relative;
    font-size: 28px;
    width: 640px;
    margin-left: 330px;
-   bottom: 10px;
+   top: 160px;
 }
 
 .self {

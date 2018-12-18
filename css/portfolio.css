@@ -1,3 +1,5 @@
+
+
 main {
    background: none;
    background-color: rgb(255, 204, 255);
@@ -80,7 +82,7 @@ main {
    display: inline-block;
    position: relative;
    left: 42px;
-   bottom: 100px;
+   bottom: 40px;
 }
 
 .media-paints-images {
