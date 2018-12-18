@@ -45,19 +45,9 @@ header h1 {
 }
 
 img {
-   margin-top: 18px;
+   margin-top: 19px;
    margin-right: 50px;
-   margin-bottom: 2px;
-}
-
-@media (max-width: 1440px) {
-   #container {
-      width: 800px;
-   }
-
-   .image-container {
-      width: 50%;
-   }
+   margin-bottom: 20px;
 }
 
 .image-container,
@@ -67,14 +57,9 @@ img {
    padding-right: 10px;
 }
 
-@media (max-width: 860px) {
-   #container {
-      width: 93%;
-   }
-}
-
-@media (max-width: 750px) {
-   #container {
-      width: 100%;
+@media (max-width: 1300px) {
+   .image-container,
+   .image-container-b {
+      width: 50%;
    }
 }
