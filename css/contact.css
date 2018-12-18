@@ -37,3 +37,20 @@ header h1 {
    background-color: #000;
    color: #fbeeda;
 }
+
+.box p {
+   font-size: 24px;
+   text-align: center;
+   width: 300px;
+   height: 25px;
+   background-color: #fbeeda;
+   margin-left: 200px;
+   margin-top: 100px;
+}
+
+.text {
+   background-color: #fbeeda;
+   width: 300px;
+   height: 500px;
+   margin-left: 200px;
+}
