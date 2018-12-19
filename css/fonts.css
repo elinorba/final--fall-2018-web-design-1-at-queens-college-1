@@ -1,0 +1,18 @@
+@font-face {
+   font-family: 'Rajdhani light';
+   src: url('../fonts/Rajdhani-Light.woff') format('woff');
+   font-weight: 300;
+   font-style: normal;
+}
+@font-face {
+   font-family: 'Rajdhani Regular';
+   src: url('../fonts/Rajdhani-Regular.woff') format('woff');
+   font-weight: 400;
+   font-style: normal;
+}
+@font-face {
+   font-family: 'Rajdhani SemiBold';
+   src: url('../fonts/Rajdhani-SemiBold.woff') format('woff');
+   font-weight: 700;
+   font-style: normal;
+}

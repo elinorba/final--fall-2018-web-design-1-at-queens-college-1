@@ -1,0 +1,233 @@
+@import url('fonts.css');
+
+html {
+   background-image: url('../img/desktop-background-img.png');
+   background-color: #eaeaea;
+   background-repeat: no-repeat;
+   position: absolute;
+   height: 100vh;
+   width: 100vw;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+   width: 1024px;
+   height: 700px;
+   overflow-x: hidden;
+   overflow-y: scroll;
+}
+
+.logo img {
+   position: fixed;
+   top: 5px;
+   left: 460px;
+   width: 70px;
+   height: 49px;
+   z-index: 100000000;
+}
+
+.blue-bar {
+   background-color: #171e29;
+   /* box-shadow: -1px 1px 5px 5px rgba(129, 129, 129, .75); */
+   position: fixed;
+   width: 1024px;
+   height: 60px;
+   display: none;
+   z-index: 1;
+}
+
+.desktop-menue {
+   /* box-shadow: -1px 1px 5px 5px rgba(129, 129, 129, .75); */
+   display: flex;
+   position: fixed;
+   background-color: #171e29;
+   height: 60px;
+   width: 1024px;
+   justify-content: space-between;
+   z-index: 1;
+}
+
+.desktop-menue a {
+   display: flex;
+   justify-content: space-between;
+   font-family: 'Rajdhani light', sans-serif;
+   font-size: 16px;
+   text-decoration: none;
+   color: white;
+   margin: 20px;
+}
+
+.desktop-menue a:hover {
+   font-weight: 700;
+   cursor: pointer;
+}
+
+.phone-menue {
+   position: absolute;
+   margin: auto;
+   text-decoration: none;
+   z-index: 2;
+   display: none;
+}
+
+.phone-menue a {
+   color: white;
+   font-family: 'Rajdhani light', sans-serif;
+   font-size: 19.26px;
+   line-height: 87.5px;
+   display: block;
+   width: 150px;
+   text-decoration: none;
+}
+
+.phone-menue a:hover {
+   font-family: 'Rajdhani SemiBold', sans-serif;
+   background-color: #f1f2f2;
+   color: #171e29;
+}
+
+.phone-menue ul {
+   padding: 0;
+   margin: 0;
+   list-style-type: none;
+}
+
+.phone-menue ul > li {
+   float: left;
+   left: 10px;
+   width: 150px;
+   background-color: #171e29;
+}
+
+.phone-menue ul > li:hover > ul {
+   visibility: visible;
+}
+
+.phone-menue ul > li > ul {
+   visibility: hidden;
+   position: absolute;
+}
+
+.phone-menue ul > li > ul a {
+   line-height: 48px;
+   height: 48px;
+}
+
+a::after,
+a:visited::after {
+   content: '';
+   height: 1px;
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 0%;
+   background: #fff;
+   transition: .25s;
+}
+
+.desktop-menue a:hover::after,
+a:visited:hover::after {
+   width: 100%;
+}
+
+.desktop-menue a,
+a:visited {
+   text-decoration: none;
+   position: relative;
+}
+
+.welcome {
+   position: absolute;
+   color: white;
+   font-family: 'Rajdhani Regular', sans-serif;
+   font-weight: 400;
+   font-size: 76px;
+   text-align: center;
+   top: 180px;
+   left: 356px;
+}
+
+@media only screen and (max-width: 768px) {
+   html {
+      background-size: 768px 700px;
+   }
+
+   .desktop-menue a:hover::after,
+   a:visited:hover::after {
+      width: 55px;
+   }
+
+   .desktop-menue {
+      display: flex;
+      flex-direction: row;
+      width: 768px;
+      justify-content: space-between;
+   }
+
+   .desktop-menue a {
+      position: relative;
+      display: flex;
+      width: 768px;
+      left: 40px;
+      justify-content: space-between;
+   }
+
+   .logo img {
+      display: inline;
+      top: 5px;
+      left: 345px;
+   }
+
+   .welcome {
+      font-size: 57px;
+      left: 235px;
+   }
+}
+
+@media only screen and (max-width: 400px) {
+   html {
+      background-size: 400px 700px;
+      background-repeat: repeat;
+   }
+
+   .desktop-menue {
+      display: none;
+   }
+
+   .phone-menue {
+      top: -8px;
+      display: block;
+      position: fixed;
+   }
+
+   .phone-menue ul > li {
+      width: 84px;
+   }
+
+   .phone-menue ul > li > a {
+      text-indent: 10px;
+      font-size: 15.26px;
+      line-height: 87.5px;
+      height: 68px;
+      width: 100%;
+      text-decoration: none;
+   }
+
+   .blue-bar {
+      top: 0;
+      display: inline;
+      z-index: 1;
+   }
+
+   .logo img {
+      display: inline;
+      left: 175px;
+      z-index: 10;
+   }
+
+   .welcome {
+      font-size: 47px;
+      left: 120px;
+   }
+}

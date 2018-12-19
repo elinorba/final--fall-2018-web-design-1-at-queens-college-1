@@ -1,0 +1,178 @@
+html {
+   background-image: none;
+   background-color: #eaeaea;
+}
+
+/* .image img {
+   position: absolute;
+   top: 50px;
+   right: 0;
+} */
+
+.name p {
+   position: relative;
+   font-family: 'Rajdhani light', sans-serif;
+   color: #333542;
+   top: -13px;
+   left: 15px;
+}
+
+.name {
+   position: absolute;
+   top: 120px;
+   left: 250px;
+   width: 540px;
+   height: 25px;
+   border: 1px solid #333542;
+   background-color: white;
+}
+
+.email p {
+   position: relative;
+   font-family: 'Rajdhani light', sans-serif;
+   color: #333542;
+   top: -13px;
+   left: 15px;
+}
+
+.email {
+   position: absolute;
+   top: 168px;
+   left: 250px;
+   width: 540px;
+   height: 25px;
+   border: 1px solid #333542;
+   background-color: white;
+}
+
+.subject p {
+   position: relative;
+   font-family: 'Rajdhani light', sans-serif;
+   color: #333542;
+   top: -13px;
+   left: 15px;
+}
+
+.subject {
+   position: absolute;
+   top: 215px;
+   left: 250px;
+   width: 540px;
+   height: 25px;
+   border: 1px solid #333542;
+   background-color: white;
+}
+
+.message p {
+   position: absolute;
+   font-family: 'Rajdhani light', sans-serif;
+   color: #333542;
+   left: 15px;
+}
+
+.message {
+   position: absolute;
+   top: 262px;
+   left: 250px;
+   width: 540px;
+   height: 280px;
+   border: 1px solid #333542;
+   background-color: white;
+}
+
+.send p {
+   position: relative;
+   font-family: 'Rajdhani light', sans-serif;
+   color: #333542;
+   top: -13px;
+   left: 15px;
+}
+
+.send {
+   position: absolute;
+   top: 565px;
+   left: 250px;
+   width: 70px;
+   height: 25px;
+   border: 1px solid #333542;
+   background-color: white;
+}
+
+.send:hover {
+   cursor: pointer;
+   background-color: #333542;
+}
+
+.send p:hover {
+   font-family: 'Rajdhani SemiBold', sans-serif;
+   color: white;
+}
+
+.kite {
+   position: absolute;
+   top: 568px;
+   left: 335px;
+}
+@media only screen and (max-width: 768px) {
+   .name {
+      left: 100px;
+   }
+
+   .email {
+      left: 100px;
+   }
+
+   .subject {
+      left: 100px;
+   }
+
+   .message {
+      left: 100px;
+   }
+
+   .send {
+      left: 100px;
+   }
+
+   .kite {
+      left: 180px;
+   }
+}
+@media only screen and (max-width: 400px) {
+   .logo {
+      left: 175px;
+   }
+
+   .name {
+      left: 93px;
+      width: 210px;
+   }
+
+   .email {
+      left: 93px;
+      width: 210px;
+   }
+
+   .subject {
+      left: 93px;
+      width: 210px;
+   }
+
+   .message {
+      left: 93px;
+      width: 210px;
+   }
+
+   .send p {
+      left: 9px;
+   }
+
+   .send {
+      width: 52px;
+      left: 93px;
+   }
+
+   .kite {
+      left: 160px;
+   }
+}

@@ -1,0 +1,59 @@
+html {
+   background-image: none;
+   background-color: #eaeaea;
+}
+
+.large-image {
+   width: 100%;
+   position: relative;
+   top: 100px;
+   text-align: center;
+}
+
+.small-image {
+   display: none;
+   position: relative;
+}
+
+.text {
+   position: relative;
+   font-family: 'Rajdhani SemiBold', sans-serif;
+   color: #333542;
+   padding: 10px;
+   top: 90px;
+   width: 475px;
+   left: 270px;
+}
+
+@media only screen and (max-width: 768px) {
+   .large-image {
+      width: 50%;
+      left: 125px;
+   }
+
+   .text {
+      left: 140px;
+   }
+}
+
+@media only screen and (max-width: 400px) {
+   .logo {
+      left: 175px;
+   }
+
+   .large-image {
+      display: none;
+   }
+
+   .small-image {
+      display: inline;
+      left: 50px;
+      top: 80px;
+   }
+
+   .text {
+      width: 305px;
+      top: 60px;
+      left: 40px;
+   }
+}

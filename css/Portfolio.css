@@ -1,0 +1,75 @@
+html {
+   background-image: none;
+   background-color: #eaeaea;
+}
+
+.blue-bar {
+   position: fixed;
+}
+
+.phone-menue {
+   position: fixed;
+}
+
+.logo img {
+   position: fixed;
+}
+
+.image-container a {
+   width: 100%;
+}
+
+#container {
+   position: static;
+   padding-top: 80px;
+   width: 1024px;
+}
+
+.image-container a {
+   position: static;
+   margin: 16px;
+   padding-top: 0;
+   float: left;
+   width: 30%;
+   z-index: -1;
+}
+
+.container a:hover {
+   cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+   #container {
+      width: 700px;
+   }
+
+   .image-container a {
+      margin: 3px 1px;
+      padding-left: 55px;
+      padding-top: 20px;
+      float: left;
+      width: 40%;
+      z-index: -1;
+   }
+}
+
+@media only screen and (max-width: 400px) {
+   .logo {
+      left: 175px;
+   }
+
+   #container {
+      width: 400px;
+   }
+
+   .image-container {
+      float: left;
+      width: 100%;
+      z-index: -1;
+   }
+
+   .image-container a {
+      margin: 0;
+      padding-left: 45px;
+   }
+}

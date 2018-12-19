@@ -1,0 +1,96 @@
+html {
+   background-image: url('../img/about-me.png');
+   position: absolute;
+   background-color: #eaeaea;
+}
+
+body {
+   height: 100vh;
+}
+
+.blue-bar {
+   z-index: 100;
+}
+
+.logo {
+   z-index: 900;
+}
+
+.phone-menue {
+   z-index: 900;
+}
+
+.text img {
+   position: absolute;
+   height: 555px;
+   top: 80px;
+   left: 395px;
+   z-index: -1;
+   /* display: none; */
+}
+
+.text p {
+   position: absolute;
+   color: #333542;
+   font-family: 'Rajdhani light', sans-serif;
+   font-size: 24px;
+   line-height: 35px;
+   width: 500px;
+   top: 75px;
+   left: 500px;
+   z-index: -900;
+}
+
+.phone-img img {
+   display: none;
+}
+
+@media only screen and (max-width: 768px) {
+   html {
+      background-size: 500px 700px;
+      background-repeat: no-repeat;
+      background-position: -150px;
+   }
+
+   .text p {
+      font-family: 'Rajdhani Regular', sans-serif;
+      font-size: 16px;
+      line-height: 35px;
+      width: 340px;
+      top: 65px;
+      left: 375px;
+   }
+
+   .text img {
+      top: 52px;
+      height: 550px;
+      left: 265px;
+      z-index: -1;
+   }
+}
+
+@media only screen and (max-width: 400px) {
+   html {
+      background-image: none;
+   }
+
+   .phone-img img {
+      display: inline;
+      height: 100vh;
+   }
+
+   .text p {
+      font-family: 'Rajdhani Regular', sans-serif;
+      color: #333542;
+      font-size: 14px;
+      line-height: 20px;
+      width: 380px;
+      top: 250px;
+      left: 10px;
+      z-index: 100;
+   }
+
+   .logo {
+      left: 175px;
+   }
+}
