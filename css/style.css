@@ -1,0 +1,90 @@
+body {
+   display:1600px;
+   background-color: #000000;
+}
+#container1{
+   width:100%;
+   height: 50px;
+   top:auto;
+   left:400px
+}
+#logo{
+   width: 1200px;
+   top: 60px;
+   left: 30px;
+   position: relative;
+}
+#container2{
+   width:400px;
+   height: 300px;
+   top: 400px;
+   position: absolute;
+   left:20px
+ }
+#hp-about{
+   width: 100%;
+   top: 150px;
+   position: absolute;
+}
+#hp-about-link{
+   font-size:40pt;
+   font-family:'Abril Fatface', cursive;
+   color: #E4D1BA;
+   top: 0;
+   position: relative;
+   text-align: center;
+ }
+#container3{
+   width:400px;
+   height: 300px;
+   top: 400px;
+   left:442px;
+   position: absolute;
+}
+#hp-portfolio{
+   width: 100%;
+   top: 150px;
+   position: absolute;
+}
+#hp-portfolio-link{
+   font-size:40pt;
+   font-family: 'Abril Fatface', cursive;
+   color: #E4D1BA;
+   top: 0;
+   position: relative;
+   text-align: center;
+}
+#container4{
+   width:400px;
+   height: 300px;
+   top: 400px;
+   left:865px;
+   position: absolute;
+}
+#hp-contact{
+   width: 100%;
+   top: 150px;
+   position: absolute;
+}
+#hp-contact-link{
+   font-size:40pt;
+   font-family: 'Abril Fatface', cursive;
+   color: #E4D1BA;
+   top: 0;
+   position: relative;
+   text-align: center;
+ }
+#container5{
+   width:100%;
+   margin-top:850px;
+   bottom:0;
+   height: 30px;
+   background-color:#E4D1BA;
+}
+#copyright{
+   font-size:14pt;
+   font-family: 'Barlow Condensed',sans-serif;
+   color: #231F20;
+   bottom:0;
+   text-align: center;
+}

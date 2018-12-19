@@ -1,0 +1,115 @@
+body {
+   display:flex;
+   background-color: #F7F2EC;
+}
+#container1{
+   width:100%;
+   top:0;
+   height:300px;
+   background-color:#000000;
+   position: absolute;
+}
+#logo{
+   width: 375px;
+   top: 60px;
+   left:20px;
+   position: relative;
+}
+#about-link{
+   font-size:24pt;
+   font-family: 'Abril Fatface', cursive;
+   color: #E4D1BA;
+   top: 200px;
+   left:40px;
+   position: absolute;
+}
+#contact-link{
+   font-size:24pt;
+   font-family: 'Abril Fatface', cursive;
+   color: #E4D1BA;
+   top: 200px;
+   position: absolute;
+   left: 260px;
+}
+#portfolio-title{
+   font-size:32px;
+   font-family:'Barlow Condensed',sans-serif;
+   color: #000000;
+   top: 300px;
+   position: relative;
+   left: 40px;
+}
+#frame1:hover img{
+   opacity:.4;
+   color:#E4D1BA;
+}
+#bttf{
+   width:350px;
+   top: 400px;
+   left: 33px ;
+   position: absolute;
+}
+#frame2:hover img{
+   opacity:.4;
+   color:#E4D1BA;
+}
+#office{
+   width:350px;
+   top: 900px;
+   left: 33px ;
+   position: absolute;
+}
+#frame3:hover img{
+   opacity:.4;
+   color:#E4D1BA;
+}
+#miami{
+   width:350px;
+   top: 1400px;
+   left: 33px ;
+   position: absolute;
+}
+#frame4:hover img{
+   opacity:.4;
+   color:#E4D1BA;
+}
+#sugar{
+   width:350px;
+   top: 1900px;
+   left: 33px ;
+   position: absolute;
+}
+#frame5:hover img{
+   opacity:.4;
+   color:#E4D1BA;
+}
+#other-world{
+   width:350px;
+   top: 2400px;
+   left: 33px ;
+   position: absolute;
+}
+#frame6:hover img{
+   opacity:.4;
+   color:#E4D1BA;
+}
+#goodfellas{
+   width:350px;
+   top: 2900px;
+   left: 33px ;
+   position: absolute;
+}
+#container2{
+   width:100%;
+   position:absolute;
+   top:3400px;
+   height: 30px;
+   background-color:#E4D1BA;
+}
+#copyright{
+   font-size:1vw;
+   font-family: Raleway-Light;
+   color: #231F20;
+   bottom:0;
+   text-align: center;
+}
