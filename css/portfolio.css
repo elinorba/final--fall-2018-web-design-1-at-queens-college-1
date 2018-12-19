@@ -1,0 +1,235 @@
+#portfoliobody {
+   height: 768px;
+   width: 1024px;
+   background-color: #1c1c1c;
+}
+
+#imagesnap {
+   position: absolute;
+   left: 100px;
+   top: 230px;
+   z-index: -1;
+}
+
+#videosnap {
+   position: absolute;
+   left: 640px;
+   top: 230px;
+   z-index: -1;
+}
+
+h1 {
+   position: absolute;
+   left: 350px;
+   top: 60px;
+   font-family: Montserrat, sans-serif;
+   color: white;
+   letter-spacing: 30px;
+   font-size: 50px;
+}
+
+#imagetag {
+   position: absolute;
+   left: 220px;
+   top: 325px;
+   font-family: Montserrat, sans-serif;
+   letter-spacing: 30px;
+   font-size: 30px;
+   color: white;
+}
+
+#videotag {
+   position: absolute;
+   left: 770px;
+   top: 325px;
+   font-family: Montserrat, sans-serif;
+   letter-spacing: 30px;
+   font-size: 30px;
+   color: white;
+}
+
+.vid a {
+   color: white;
+   text-decoration: none;
+   transition: all .3s ease;
+   opacity: .5;
+}
+
+.vid a:hover {
+   opacity: 1;
+}
+
+.img a {
+   color: white;
+   text-decoration: none;
+   transition: all .3s ease;
+   opacity: .5;
+}
+
+.img a:hover {
+   opacity: 1;
+}
+
+.portoliofoot {
+   width: 170px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   position: absolute;
+   top: 750px;
+   font-family: 'Titillium Web', sans-serif;
+}
+
+.portoliofoot a {
+   color: black;
+   text-decoration: none;
+}
+
+.portoliofoot a:hover {
+   color: white;
+}
+
+.portoliomenu {
+   display: none;
+}
+
+@media only screen and (max-width: 768px) {
+   h1 {
+      position: absolute;
+      left: 120px;
+      top: 20px;
+      font-family: Montserrat, sans-serif;
+      color: white;
+      letter-spacing: 30px;
+      font-size: 40px;}
+
+   #imagetag {
+      position: absolute;
+      left: 190px;
+      top: 225px;
+      font-family: Montserrat, sans-serif;
+      letter-spacing: 30px;
+      font-size: 30px;
+      color: white;
+   }
+
+   #imagesnap {
+      position: absolute;
+      left: 100px;
+      top: 130px;
+      z-index: -1;
+   }
+
+   #videosnap {
+      position: absolute;
+      left: 100px;
+      top: 450px;
+      z-index: -1;
+   }
+
+   #videotag {
+      position: absolute;
+      left: 190px;
+      top: 550px;
+      font-family: Montserrat, sans-serif;
+      letter-spacing: 30px;
+      font-size: 30px;
+      color: white;
+   }
+
+   .portoliofoot {
+      width: 150px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      position: absolute;
+      top: 800px;
+      font-family: 'Titillium Web', sans-serif;
+   }
+
+   .portoliofoot a {
+      color: black;
+      text-decoration: none;
+   }
+
+   .portoliofoot a:hover {
+      color: white;
+   }
+
+   .portoliomenu {
+      display: none;
+   }
+
+   @media only screen and (max-width: 400px) {
+      h1 {
+         position: absolute;
+         top: 40px;
+         left: 80px;
+         color: white;
+         font-family: 'Titillium Web', sans-serif;
+         width: 300px;
+         text-align: center;
+         font-size: 30px;
+         letter-spacing: 15px;
+      }
+
+      #imagetag {
+         position: absolute;
+         left: 130px;
+         top: 225px;
+         font-family: Montserrat, sans-serif;
+         letter-spacing: 15px;
+         font-size: 30px;
+         color: white;
+      }
+
+      #imagesnap {
+         position: absolute;
+         left: 20px;
+         top: 130px;
+         transform: scale(.8);
+         z-index: -1;
+      }
+
+      #videosnap {
+         position: absolute;
+         left: 20px;
+         top: 450px;
+         z-index: -1;
+         transform: scale(.8);
+      }
+
+      #videotag {
+         position: absolute;
+         left: 130px;
+         top: 550px;
+         font-family: Montserrat, sans-serif;
+         letter-spacing: 15px;
+         font-size: 30px;
+         color: white;
+      }
+
+      .portoliofoot {
+         display: none;
+      }
+
+      .portoliomenu {
+         display: block;
+         margin-left: -20px;
+         font-family: 'Titillium Web', sans-serif;
+      }
+
+      .portoliomenu a {
+         text-decoration: none;
+         color: black;
+      }
+
+      .portoliomenu li {
+         list-style: none;
+      }
+
+      li:hover {
+         color: grey;
+      }
+   }
+}

@@ -1,0 +1,135 @@
+html {
+   height: 768px;
+   width: 1024px;
+   background-color: #1c1c1c;
+}
+
+h1 {
+   position: absolute;
+   top: 10px;
+   left: 410px;
+   color: white;
+   font-family: Montserrat, sans-serif;
+   letter-spacing: 25px;
+   font-size: 50px;
+}
+
+p {
+   position: absolute;
+   top: 150px;
+   width: 300px;
+   left: 190px;
+}
+
+img {
+   position: absolute;
+   top: 120px;
+   left: 170px;
+   z-index: -1;
+}
+
+.aboutfoot {
+   width: 170px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   position: absolute;
+   top: 750px;
+   font-family: 'Titillium Web', sans-serif;
+}
+
+a {
+   color: black;
+   text-decoration: none;
+}
+
+a:hover {
+   color: white;
+}
+
+.aboutmenu {
+   display: none;
+}
+
+@media only screen and (max-width: 768px) {
+   h1 {
+      position: absolute;
+      top: 10px;
+      left: 280px;
+      color: white;
+      font-family: Montserrat, sans-serif;
+      letter-spacing: 20px;
+      font-size: 40px;
+   }
+
+   p {
+      position: absolute;
+      top: 490px;
+      width: 450px;
+      left: 180px;
+      color: white;
+      text-align: center;
+   }
+
+   img {
+      position: absolute;
+      top: 5px;
+      left: 10px;
+      z-index: -1;
+      transform: scale(.6);
+   }
+}
+
+@media only screen and (max-width: 400px) {
+   h1 {
+      position: absolute;
+      top: 10px;
+      left: 280px;
+      color: white;
+      margin-left: -180px;
+      font-family: Montserrat, sans-serif;
+      letter-spacing: 20px;
+      font-size: 40px;
+   }
+
+   p {
+      position: absolute;
+      top: 490px;
+      width: 300px;
+      left: 180px;
+      color: white;
+      text-align: center;
+      margin-left: -100px;
+   }
+
+   img {
+      position: absolute;
+      margin: auto;
+      top: 1px;
+      z-index: -1;
+      transform: scale(.5);
+      margin-left: -180px;
+   }
+
+   .aboutfoot {
+      display: none;
+   }
+
+   .aboutmenu {
+      display: block;
+      margin-left: -30px;
+      font-family: 'Titillium Web', sans-serif;
+   }
+
+   .aboutmenu a {
+      text-decoration: none;
+   }
+
+   .aboutmenu li {
+      list-style: none;
+   }
+
+   li:hover {
+      color: grey;
+   }
+}

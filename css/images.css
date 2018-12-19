@@ -1,0 +1,130 @@
+html {
+   background-color: #1c1c1c;
+}
+
+.images {
+   transform: scale(.5);
+   position: absolute;
+   margin-top: -150px;
+   margin-left: -290px;
+   display: flex;
+   flex-direction: row;
+}
+
+.imagefoot {
+   width: 170px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   position: absolute;
+   top: 750px;
+   font-family: 'Titillium Web', sans-serif;
+}
+
+.imagefoot a {
+   color: black;
+   text-decoration: none;
+}
+
+.imagefoot a:hover {
+   color: white;
+}
+
+.description {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   width: 600px;
+   position: absolute;
+   top: 450px;
+   left: 170px;
+   font-size: 25px;
+   color: black;
+}
+
+.imagemenu {
+   display: none;
+}
+
+@media only screen and (max-width: 768px) {
+   .images {
+      transform: scale(.5);
+      position: absolute;
+      margin-top: -590px;
+      margin-left: 120px;
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+   }
+
+   .imagefoot {
+      width: 150px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      position: absolute;
+      top: 1124px;
+      font-family: 'Titillium Web', sans-serif;
+   }
+
+   .description {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 100px;
+      height: 800px;
+      position: absolute;
+      top: 170px;
+      left: 100px;
+      font-size: 25px;
+      color: black;
+   }
+}
+
+@media only screen and (max-width: 400px) {
+   .images {
+      transform: scale(.4);
+      position: absolute;
+      margin-top: -700px;
+      margin-left: 5px;
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+   }
+
+   .description {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 80px;
+      height: 700px;
+      position: absolute;
+      top: 170px;
+      left: 60px;
+      font-size: 25px;
+      color: black;
+   }
+
+   .imagefoot {
+      display: none;
+   }
+
+   .imagemenu {
+      display: block;
+      margin-left: -30px;
+      font-family: 'Titillium Web', sans-serif;
+   }
+
+   .imagemenu a {
+      text-decoration: none;
+      color: black;
+   }
+
+   .imagemenu li {
+      list-style: none;
+   }
+
+   li:hover {
+      color: grey;
+   }
+}
