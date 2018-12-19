@@ -9,7 +9,7 @@ main {
 }
 
 .contact-me-text {
-   font-family: caveat, sans-serif;
+   font-family: Caveat, cursive;
    font-size: 48px;
    color: rgb(58, 58, 58);
    top: 4px;
@@ -27,7 +27,7 @@ main {
 }
 
 .contact-send-text {
-   font-family: caveat, sans-serif;
+   font-family: Caveat, cursive;
    font-size: 36px;
    padding-left: 120px;
    bottom: 16px;
