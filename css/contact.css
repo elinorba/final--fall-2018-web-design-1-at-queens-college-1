@@ -1,0 +1,76 @@
+html {
+   width: 1440px;
+   background-color: #000;
+}
+
+header {
+   font-family: 'Dancing Script', cursive;
+   background-color: #fbeeda;
+   color: #fff;
+   position: relative;
+   height: 28px;
+   top: 8px;
+}
+
+header h1 {
+   font-size: 24px;
+   text-align: center;
+   color: #000;
+}
+
+#nav_container ul {
+   list-style: none;
+}
+
+#nav_container ul li {
+   display: inline;
+}
+
+#nav_container ul li a {
+   background-color: #fbeeda;
+   color: #000;
+   padding: 5px 140px;
+   text-decoration: none;
+}
+
+#nav_container ul li a:hover {
+   background-color: #000;
+   color: #fbeeda;
+}
+
+.box p {
+   font-family: 'Dancing Script', cursive;
+   font-weight: 400;
+   font-size: 24px;
+   text-align: center;
+   width: 300px;
+   height: 25px;
+   background-color: #fbeeda;
+   margin-left: 200px;
+   margin-top: 100px;
+}
+
+.text {
+   background-color: #fbeeda;
+   width: 300px;
+   height: 400px;
+   margin-left: 200px;
+}
+
+.send {
+   font-family: 'Dancing Script', cursive;
+   font-weight: 400;
+   font-size: 24px;
+   text-align: center;
+   background-color: #fff;
+   width: 60px;
+   height: 24px;
+   margin-top: 30px;
+   margin-left: 320px;
+}
+
+.flower {
+   position: relative;
+   margin-top: -520px;
+   margin-left: 720px;
+}
