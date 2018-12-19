@@ -1,0 +1,98 @@
+html{
+   background-image: none;
+}
+
+.header a {
+   font-family: Poppins, 'Myriad pro', sans-serif;
+   font-size: 14px;
+   color: black;
+   text-align: left;
+   text-decoration: none;
+}
+
+.KC p {
+   position: fixed;
+   font-family: Poppins, 'Myriad pro', sans-serif;
+   font-size: 36px;
+   top: -10px;
+   left: 20px;
+   color: black;
+   z-index: 900;
+}
+
+.about-me-body img {
+   position: absolute;
+   left: 225px;
+   top: 140px;
+}
+
+.about-me-body p:nth-child(2) {
+   position: absolute;
+   font-family: Poppins, 'Myriad pro', sans-serif;
+   font-size: 24px;
+   top: 115px;
+   left: 485px;
+}
+
+.about-me-body p:nth-child(3) {
+   position: absolute;
+   font-family: Poppins, 'Myriad pro', sans-serif;
+   font-size: 14px;
+   width: 460px;
+   top: 180px;
+   left: 485px;
+   text-align: left;
+}
+
+.about-me-body p:nth-child(4) {
+   position: absolute;
+   font-family: Poppins, 'Myriad pro', sans-serif;
+   font-size: 14px;
+   width: 460px;
+   top: 300px;
+   left: 485px;
+   text-align: left;
+}
+
+@media (max-width: 768px) {
+  .about-me-body P:nth-child(2){
+    position: absolute;
+    left: 20px;
+    top: 600px;
+    text-align: center;
+}
+  .about-me-body p:nth-child(3) {
+       position: absolute;
+       font-family: Poppins, 'Myriad pro', sans-serif;
+       font-size: 24px;
+       top: 640px;
+       left: 485px;
+       text-align: center;
+}
+
+  .about-me-body p:nth-child(4) {
+       position: absolute;
+       font-family: Poppins, 'Myriad pro', sans-serif;
+       font-size: 14px;
+       width: 460px;
+       top: 680px;
+       left: 485px;
+       text-align: left;
+    }
+
+    .about-me-body p:nth-child(4) {
+       position: absolute;
+       font-family: Poppins, 'Myriad pro', sans-serif;
+       font-size: 14px;
+       width: 460px;
+       top: 300px;
+       left: 485px;
+       text-align: left;
+
+  }
+}
+
+@media (max-width: 600px) {
+   p {
+      width: 100%;
+   }

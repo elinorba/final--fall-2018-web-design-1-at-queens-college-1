@@ -1,0 +1,46 @@
+html{
+   background-image: none;
+}
+
+.header a {
+   font-family: Poppins, 'Myriad pro', sans-serif;
+   font-size: 14px;
+   color: black;
+   text-align: left;
+   text-decoration: none;
+ }
+
+ .KC p {
+    position: fixed;
+    font-family: Poppins, 'Myriad pro', sans-serif;
+    font-size: 36px;
+    top: -10px;
+    left: 20px;
+    color: black;
+    z-index: 900;
+}
+
+.contact-body p:nth-child(1) {
+   position: absolute;
+   font-family: Poppins, 'Myriad pro', sans-serif;
+   font-size: 25px;
+   width: 540px;
+   top: 240px;
+   left: 348px;
+   text-align: center;
+}
+
+.contact-body p:nth-child(2) {
+   position: absolute;
+   font-family: Poppins, 'Myriad pro', sans-serif;
+   font-size: 21px;
+   top: 450px;
+   left: 348px;
+   text-align: center;
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 600px) {
+}

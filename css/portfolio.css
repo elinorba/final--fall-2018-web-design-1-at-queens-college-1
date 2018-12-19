@@ -1,0 +1,68 @@
+html{
+   background-image: none;
+   background-color: white;
+}
+img {
+   width: 100%;
+}
+
+.header a {
+   font-family: Poppins, 'Myriad pro', sans-serif;
+   font-size: 14px;
+   color: black;
+   text-align: left;
+   text-decoration: none;
+}
+
+.KC p {
+   position: fixed;
+   font-family: Poppins, 'Myriad pro', sans-serif;
+   font-size: 36px;
+   top: -10px;
+   left: 20px;
+   color: black;
+   z-index: 900;
+}
+
+.image-container p {
+   font-family: Poppins, 'Myriad pro', sans-serif;
+   font-size: 24px;
+   text-align: center;
+   margin: 0;
+   padding: 10px 0;
+   width: 100%;
+   position: absolute;
+   top: 450px;
+
+   left: 0;
+}
+
+#container {
+   margin: auto;
+   width: 1000px;
+}
+
+.image-container {
+   position: relative;
+   float: left;
+   width: 25%;
+   padding: 41px;
+   top: 200px;
+   left: 35px;
+}
+
+@media (max-width: 768px) {
+   #container {
+      width: 800px;
+   }
+
+   .image-container {
+      width: 50%;
+   }
+}
+
+@media (max-width: 600px) {
+   .image-container {
+      width: 100%;
+   }
+}
