@@ -1,0 +1,96 @@
+main {
+   background: none;
+   background-color: rgb(255, 204, 255);
+   height: 1000px;
+}
+
+.media {
+   position: absolute;
+   font-family: Caveat, cursive;
+   font-size: 50px;
+   top: 360px;
+}
+
+.media-digitals,
+.media-digitals-text {
+   position: absolute;
+   z-index: 1;
+}
+
+.media-digitals-text {
+   top: 4px;
+   left: 152px;
+}
+
+.media-digitals {
+   left: 66px;
+   top: 162px;
+}
+
+.media-paints,
+.media-paints-text {
+   position: absolute;
+   z-index: 1;
+}
+
+.media-paints-text {
+   top: 4px;
+   left: 142px;
+}
+
+.media-paints {
+   left: 786px;
+   top: 162px;
+}
+
+.media-photos,
+.media-photos-text {
+   position: absolute;
+   z-index: 1;
+}
+
+.media-photos-text {
+   top: 4px;
+   left: 104px;
+}
+
+.media-photos {
+   left: 66px;
+   top: 680px;
+}
+
+.media-prints,
+.media-prints-text {
+   position: absolute;
+   z-index: 1;
+}
+
+.media-prints-text {
+   top: 4px;
+   left: 166px;
+}
+
+.media-prints {
+   left: 784px;
+   top: 680px;
+}
+
+.media-digitals-images,
+.media-paints-images {
+   display: inline-block;
+   position: relative;
+   left: 42px;
+   bottom: 40px;
+}
+
+.media-paints-images {
+   padding-left: 8px;
+}
+
+.media-photos-images,
+.media-prints-images {
+   display: inline-block;
+   position: relative;
+   left: 42px;
+   top: 50px;
+}
